@@ -1,0 +1,38 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Compare RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.woocommerce.yith-woocompare-popup .yith-woocompare-widget .products-list li .remove,
+#page .yith-woocompare-widget .products-list li .remove {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.woocommerce.yith-woocompare-popup .yith-woocompare-widget a.compare,
+#page .yith-woocompare-widget a.compare {
+	margin-left: 20px;
+	float: right;
+}
+
+#yith-woocompare-share ul li a {
+	margin-left: 5px;
+}
+
+.cmsmasters_single_product .cmsmasters_compare_btn {
+	padding-right: 30px;
+	padding-left:0;
+}
+
+li.product .cmsmasters_product .cmsmasters_compare_btn {
+	float: left;
+	margin-left: 0;
+	margin-right: 7px;
+}
+

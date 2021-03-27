@@ -1,0 +1,281 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Ajax Product Filter CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+ 
+
+/*-------------------------------------------------------------------------
+
+	1. 	Widgets
+	2.	CSS3 Animations
+
+-------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------*/
+/*	1. Widgets */
+/*-------------------------------------------------------------------------*/
+
+.yith-woocommerce-ajax-product-filter {
+	ul {
+		margin:0;
+		
+		li {
+			margin:0;
+			
+			&:before {
+				content:none;
+			}
+		}
+	}
+	
+	&.widget_layered_nav {
+		li {
+			padding:0;
+			text-transform:none;
+			.bd(0);
+			
+			a {
+				text-transform:none;
+			}
+		}
+		
+		ul {
+			&.yith-wcan-color {
+				li {
+					margin:0 10px 0 0;
+					
+					&.chosen,
+					&:hover {
+						a {
+							-webkit-transform:scale(1.2);
+							-moz-transform:scale(1.2);
+							transform:scale(1.2);
+						}
+					}
+					
+					a {
+						margin:00;
+						width:14px;
+						height:14px;
+						.bdbx;
+						position:relative;
+						border:none !important;
+						
+						span.multicolor {
+							&.color-1 {
+								border-width:14px 14px 0 0;
+							}
+							
+							&.color-2 {
+								border-width:0 0 14px 14px;
+							}
+						}
+					}
+				}
+			}
+			
+			&.yith-wcan-list {
+				li {
+					padding-top:5px;
+					
+					&:first-child {
+						padding-top:0;
+					}
+				}
+			}
+			
+			&.yith-wcan-label {
+				li {
+					line-height:20px;
+					background:none;
+					.bd(0);
+					margin:0;
+					display:inline-block;
+					float:none;
+					
+					&:before {
+						content:'/';
+						line-height:20px;
+						display:inline-block;
+						vertical-align:top;
+						position:relative;
+						top:auto;
+						left:auto;
+					}
+					
+					&:first-child {
+						&:before {
+							content:none;
+						}
+					}
+					
+					a {
+						display:inline-block;
+						background:none;
+						.bd(0);
+						margin:0;
+						padding:0;
+						line-height:20px;
+						
+						&:hover {
+							background:none;
+							.bd(0);
+						}
+					}
+					
+					&.chosen {
+						a {
+							background:none;
+							.bd(0);
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	&.yith-wcan-sort-by {
+		li {
+			margin:0 !important;
+			padding-top:5px;
+			
+			&:first-child {
+				padding-top:0;
+			}
+			
+			a {
+				padding-left:27px;
+				position:relative;
+				
+				&.orderby-item, 
+				&.yith-wcan-onsale-button, 
+				&.yith-wcan-instock-button, 
+				&.yith-wcan-price-link {
+					&.active {
+						&:after {
+							.op(1);
+						}
+					}
+				}
+				
+				&:before {
+					content:'' !important;
+					display:block;
+					.pos_abs(16px, 16px, 0, auto, 0, 0);
+					.bd;
+					.bdrs(50%);
+				}
+				
+				&:after {
+					content:'';
+					display:block;
+					.pos_abs(6px, 6px, 5px, auto, 0, 0);
+					.bdrs(50%);
+					.op(0);
+				}
+			}
+		}
+	}
+	
+	&.yith-wcan-list-price-filter {
+		.yith-wcan-list-price-filter {
+			padding:0;
+			
+			li {
+				padding-top:5px;
+				
+				&:first-child {
+					padding-top:0;
+				}
+			}
+			
+			.yith-wcan-price-link {
+				padding-left:27px;
+				position:relative;
+				
+				&:before {
+					content:'' !important;
+					display:block;
+					.pos_abs(16px, 16px, 0, auto, 0, 0);
+					.bdrs(50%);
+					.bd;
+				}
+				
+				&:after {
+					content:'';
+					display:block;
+					.pos_abs(6px, 6px, 5px, auto, 0, 0);
+					.bdrs(50%);
+					.op(0);
+				}
+				
+				&.active {
+					&:after {
+						.op(1);
+					}
+				}
+			}
+		}
+	}
+	
+	&.yith-wcan-stock-on-sale {
+		.yith-wcan-stock-on-sale {
+			padding-left:0;
+			
+			li {
+				padding-top:5px;
+				
+				&:first-child {
+					padding-top:0;
+				}
+				
+				a {
+					padding-left:27px;
+					position:relative;
+					
+					&:before {
+						content:'' !important;
+						display:block;
+						.pos_abs(16px, 16px, 0, auto, 0, 0);
+						.bd;
+					}
+					
+					&:after {
+						content:'\eabb';
+						font-family:'fontello';
+						display:block;
+						.pos_abs(16px, 16px, 0, auto, 0, 0);
+						line-height:16px;
+						font-size:11px;
+						.tac;
+						.op(0);
+					}
+					
+					&.active {
+						&:after {
+							.op(1);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*-------------------------------------------------------------------------*/
+/*	2.	CSS3 Animations	*/
+/*-------------------------------------------------------------------------*/
+html.csstransitions {
+	.widget_layered_nav ul.yith-wcan-color li a {
+	}
+}

@@ -1,0 +1,48 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Ajax Search CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+	/*-------------------------------------------------------------------------*/
+	/*	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_small {
+		.cmsmasters_header_search_form {
+			.search-navigation_wrap {
+				height:70px;
+				
+				@{input_text} {
+					font-size:30px;
+					line-height:40px;
+				}
+			}
+		}
+	}
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/* Phone Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_phone {
+		.cmsmasters_header_search_form {
+			.search-navigation_wrap {
+				height:50px;
+				
+				@{input_text} {
+					font-size:20px;
+					line-height:30px;
+				}
+			}
+		}
+	}
+}

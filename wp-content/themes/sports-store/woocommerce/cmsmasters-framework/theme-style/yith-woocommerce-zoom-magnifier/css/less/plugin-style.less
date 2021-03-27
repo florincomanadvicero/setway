@@ -1,0 +1,141 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Zoom Magnifier CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+ 
+
+/*-------------------------------------------------------------------------
+
+	1. 	Single Product
+	2.	CSS3 Animations
+
+-------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------*/
+/*	1. Single Product */
+/*-------------------------------------------------------------------------*/
+
+/***************** Single Product Thumbnail Slider ******************/
+html span.onsale {
+	z-index:1;
+}
+
+.cmsmasters_product_left_column {
+	.thumbnails.slider {
+		margin:0 -5px;
+	}
+	
+	.caroufredsel_wrapper {
+		height:auto !important;
+		position:relative;
+	}
+	
+	.yith_magnifier_gallery {
+		height:auto !important;
+		position:relative !important;
+		
+		li {
+			margin:10px 5px 0;
+			padding:0;
+			
+			&.last {
+				margin:10px 5px 0;
+			}
+			
+			&:before {
+				content:none;
+			}
+			
+			a {
+				margin:0;
+				.tac;
+			}
+		}
+	}
+	
+	.yith_magnifier_zoom_magnifier {
+		.bd(0);
+	}
+	
+	.images.right {
+		.yith_magnifier_zoom_magnifier {
+			margin:0 0 0 60px;
+		}
+	}
+}
+
+
+/***************** Single Product Thumbnail Slider Button ******************/
+.single-product.woocommerce {
+	.cmsmasters_single_product {
+		.thumbnails {
+			#slider-prev,
+			#slider-next {
+				font-size:20px;
+				background-image:none;
+				width:22px;
+				height:43px;
+				margin:auto !important;
+				top:10px;
+				bottom:0;
+				.bd;
+				.tac;
+				.op(0);
+				
+				&:before {
+					font-family:'fontello';
+					line-height:1em;
+					.pos_abs();
+				}
+				
+				&.hidden {
+					display:none !important;
+				}
+			}
+			
+			#slider-prev {
+				left:5px;
+				right:auto;
+				
+				&:before {
+					content:'\eb21';
+				}
+			}
+			
+			#slider-next {
+				left:auto;
+				right:6px;
+				
+				&:before {
+					content:'\eb22';
+				}
+			}
+			
+			&:hover {
+				#slider-prev,
+				#slider-next {
+					.op(1);
+				}
+			}
+		}
+	}
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	2.	CSS3 Animations	*/
+/*-------------------------------------------------------------------------*/
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev,
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next {
+	.trans(~'color .3s ease-in-out, opacity .3s ease-in-out');
+}

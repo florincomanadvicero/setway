@@ -1,0 +1,27 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Zoom Magnifier RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.cmsmasters_product_left_column .images.right .yith_magnifier_zoom_magnifier {
+	margin-left: 0;
+	margin-right: 60px;
+}
+
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev {
+	left: auto;
+	right: 5px;
+}
+
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next {
+	left: 6px;
+	right: auto;
+}
+
+

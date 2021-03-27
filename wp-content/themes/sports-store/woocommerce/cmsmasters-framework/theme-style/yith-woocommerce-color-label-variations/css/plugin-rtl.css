@@ -1,0 +1,48 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Color and Label Variations RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.select_option.select_option_label {
+	margin-left: 0;
+}
+
+.select_option.select_option_label:before {
+	float: right;
+}
+
+.select_option.select_option_label .yith_wccl_value {
+	float: right;
+}
+
+.cmsmasters_single_product .select_option .yith-wccl-bicolor {
+	border-right-width: 12px;
+	border-right-style: solid;
+}
+
+.cmsmasters_single_product .variations_form select {
+	padding-left: 40px;
+	padding-right: 10px;
+	margin-left: 5px;
+}
+
+.cmsmasters_single_product .variations_form .select_box {
+	margin-left: 10px;
+}
+
+.cmsmasters_product .cmsmasters_product_features .variations_form {
+	float: right;
+	margin-left: 10px;
+}
+
+li.product .select_option .yith-wccl-bicolor {
+	border-right-width: 9px;
+	border-right-style: solid;
+}
+

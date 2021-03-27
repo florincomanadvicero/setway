@@ -1,0 +1,214 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Sports Store
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Color and Label Variations CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../../theme-framework/theme-style/css/less/general.less";
+ 
+
+/*-------------------------------------------------------------------------
+
+	1. 	General
+	2.	Single Product
+	3.	Shop Page
+	4.	CSS3 Animations
+
+-------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------*/
+/*	1. General */
+/*-------------------------------------------------------------------------*/
+
+.select_option {
+	padding:2px;
+	border-color:transparent;
+	cursor:pointer;
+	
+	&.select_option_colorpicker {
+		.bdrs(50%);
+		
+		.yith_wccl_value {
+			min-width:12px;
+			width:12px;
+			height:12px;
+			.bd(0);
+			.bdrs(50%);
+			.ovh;
+		}
+	}
+	
+	&.select_option_label {
+		.bd(0);
+		padding:0;
+		margin-right:0;
+		
+		&:first-child:before {
+			content:none;
+		}
+		
+		&:before {
+			content:'/';
+			line-height:20px;
+			display:block;
+			.fl;
+		}
+		
+		.yith_wccl_value {
+			line-height:20px;
+			height:20px;
+			margin:0 3px;
+			.fl;
+			min-width:auto;
+			width:auto;
+			.bd(0);
+		}
+	}
+}
+
+.select_box {
+	&:after {
+		.cl_after;
+		margin:0;
+	}
+}
+	
+
+/*-------------------------------------------------------------------------*/
+/*	2.	Single Product	*/
+/*-------------------------------------------------------------------------*/
+
+.cmsmasters_single_product {
+	.select_option {
+		&.select_option_colorpicker {
+			.yith_wccl_value {
+				min-width:12px;
+				width:12px;
+				height:12px;
+			}
+		}
+		
+		.yith-wccl-bicolor {
+			.bdl(12px);
+			.bdb(12px);
+		}
+		
+		.yith_wccl_value,
+		&.select_option_label {
+			.bd(0);
+			padding:0;
+		}
+	}
+	
+	.variations_form {
+		select {
+			height:34px;
+			padding:5px 40px 5px 10px;
+			margin-right:5px;
+		}
+		
+		.select_box {
+			display:inline-block;
+			vertical-align:middle;
+			margin-right:10px;
+		}
+	}
+}
+
+
+/*-------------------------------------------------------------------------*/
+/*	3.	Shop Page	*/
+/*-------------------------------------------------------------------------*/
+
+.cmsmasters_product {
+	.cmsmasters_product_features {
+		.variations_form {
+			.fl;
+			margin-right:10px;
+		}
+	}
+	
+	.cmsmasters_product_info {
+		.variations_form {
+			clear:both;
+		}
+	}
+	
+	select {
+		.dn;
+	}
+}
+
+li.product {
+	.variations_form.cart {
+		margin:0;
+		height:20px;
+		max-width:50%;
+		.ovh;
+		
+		div.variations {
+			margin:2px 0;
+			
+			+ .variations {
+				margin-top:4px;
+			}
+		}
+	}
+	
+	.select_option {
+		.yith-wccl-bicolor {
+			.bdl(9px);
+			.bdb(9px);
+		}
+		
+		&.select_option_colorpicker  {
+			.yith_wccl_value {
+				width:9px;
+				height:9px;
+				min-width:9px;
+			}
+		}
+		
+		&.select_option_image {
+			padding:0;
+			
+			.yith_wccl_value {
+				min-width:16px;
+				height:16px;
+				.bd(0);
+			}
+		}
+		
+		&.select_option_label {
+			&:before {
+				line-height:16px;
+			}
+		
+			.yith_wccl_value {
+				min-width:auto;
+				height:16px;
+				line-height:16px;
+			}
+		}
+	}
+}
+
+
+/*-------------------------------------------------------------------------*/
+/*	4.	CSS3 Animations	*/
+/*-------------------------------------------------------------------------*/
+html.csstransitions {
+	.select_option.select_option_label .yith_wccl_value {
+		.trans(~'color .3s ease-in-out');
+	}
+	
+	.select_option {
+		.trans(~'border-color .3s ease-in-out');
+	}
+}

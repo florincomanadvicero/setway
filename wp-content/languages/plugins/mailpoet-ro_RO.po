@@ -1,0 +1,2825 @@
+# Translation of Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-28 07:58:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release)\n"
+
+#: lib/Subscription/Pages.php:335
+msgid "Confirm you want to unsubscribe"
+msgstr "Confirmă că vrei să te dezabonezi"
+
+#: lib/API/JSON/v1/Services.php:222
+msgid "MailPoet Sending Service is not active."
+msgstr "Serviciul de corespondență MailPoet nu este activ."
+
+#: lib/API/JSON/v1/Services.php:227
+msgid "No FROM email addresses are authorized."
+msgstr "Nu există adrese de email pentru expeditor autorizate."
+
+#: lib/API/JSON/v1/Services.php:232
+msgid "Sender email address is not set."
+msgstr "Adresa de email a expeditorului nu este setată."
+
+#: lib/API/JSON/v1/Services.php:235
+msgid "Sender email address '%s' is not authorized."
+msgstr "Adresa de email a expeditorului „%s” nu este autorizată."
+
+#: lib/API/JSON/v1/Services.php:243
+msgid "Sending of congratulatory email failed."
+msgstr "Trimiterea emailului de felicitare a eșuat."
+
+#: lib/Form/PreviewPage.php:65
+msgid "Sample page to preview your form"
+msgstr "Exemplu de pagină pentru previzualizarea formularului tău"
+
+#: lib/Subscribers/ImportExport/Export/Export.php:114
+msgid "Failed opening file for export."
+msgstr "A eșuat deschiderea fișierului pentru export."
+
+#: lib/Services/CongratulatoryMssEmailController.php:34
+msgctxt "Subject of an email confirming that MailPoet Sending Service works"
+msgid "Sending with MailPoet works!"
+msgstr "Trimiterea cu MailPoet funcționează!"
+
+#: lib/Config/ServicesChecker.php:44
+msgid "All sending is currently paused!"
+msgstr "Toate trimiterile sunt momentan întrerupte."
+
+#: lib/Config/ServicesChecker.php:45
+msgid "Your key to send with MailPoet is invalid."
+msgstr "Cheia ta pentru a trimite cu MailPoet este invalidă."
+
+#: lib/Config/ServicesChecker.php:50
+msgid "Purchase a key"
+msgstr "Cumpără o cheie"
+
+#: lib/API/JSON/v1/Settings.php:96
+msgid "No email address specified."
+msgstr "Nicio adresă de email nu a fost specificată."
+
+#: lib/API/JSON/v1/Settings.php:105
+msgid "Can’t use this email yet! Please authorize it first."
+msgstr "Încă nu poți folosi acest email! Te rog să-l autorizezi mai întâi."
+
+#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:66
+#: lib/Util/Notices/UnauthorizedEmailNotice.php:52
+msgid "Fix this!"
+msgstr "Fixează!"
+
+#: lib/PostEditorBlocks/SubscriptionFormBlock.php:60
+msgid "Select a MailPoet form"
+msgstr "Selectează un formular MailPoet"
+
+#: lib/PostEditorBlocks/SubscriptionFormBlock.php:62
+msgid "MailPoet Subscription Form"
+msgstr "Formular de abonare MailPoet"
+
+#: mailpoet.php:67
+msgid "Please read our [link]instructions[/link] on how to upgrade your site."
+msgstr "Te rog citește [link]instrucțiunile[/link] noastre despre cum să-ți actualizezi situl."
+
+#: mailpoet.php:75
+msgid "If you can’t upgrade the PHP version, [link]install this version[/link] of MailPoet. Remember to not update MailPoet ever again!"
+msgstr "Dacă nu poți actualiza versiunea PHP, [link]instalează această versiune[/link] a MailPoet. Reține, nu mai trebuie să actualizezi niciodată MailPoet!"
+
+#: mailpoet.php:64
+msgid "MailPoet requires PHP version 7.1.8 or newer (7.4 recommended). You are running version [version]."
+msgstr "MailPoet necesită PHP versiunea 7.1.8 sau una mai nouă (este recomandată versiunea 7.4). Acum rulezi cu versiunea [version]."
+
+#: lib/API/JSON/v1/Premium.php:40 lib/API/JSON/v1/Premium.php:62
+msgid "Premium key is not valid."
+msgstr "Cheia premium nu este validă."
+
+#: lib/API/JSON/v1/Premium.php:48 lib/API/JSON/v1/Premium.php:54
+msgid "Error when installing MailPoet Premium plugin."
+msgstr "Eroare la instalarea modulului MailPoet Premium."
+
+#: lib/API/JSON/v1/Premium.php:67
+msgid "Error when activating MailPoet Premium plugin."
+msgstr "Eroare la activarea modulului MailPoet Premium."
+
+#: lib/API/JSON/v1/Services.php:127
+msgid "Your key is not valid for the MailPoet Sending Service"
+msgstr "Cheia ta nu este validă pentru serviciul de corespondență MailPoet"
+
+#: lib/API/JSON/v1/Services.php:192
+msgid "Your key is not valid for MailPoet Premium"
+msgstr "Cheia ta nu este validă pentru MailPoet Premium"
+
+#: lib/API/JSON/v1/SendingQueue.php:42 lib/API/JSON/v1/SendingQueue.php:158
+#: lib/API/JSON/v1/Newsletters.php:163
+msgid "Subscribers limit reached."
+msgstr "Limită de abonați atinsă"
+
+#: lib/AdminPages/Pages/Settings.php:101
+msgctxt "Notice in Settings when WooCommerce is not enabled"
+msgid "You need to have WooCommerce active to access the MailPoet email customizer for WooCommerce."
+msgstr "Trebuie să activezi WooCommerce pentru a accesa personalizatorul de email MailPoet pentru WooCommerce."
+
+#: lib/API/JSON/v1/SendingTaskSubscribers.php:99
+msgid "Newsletter not found!"
+msgstr "Buletinul de știri nu a fost găsit!"
+
+#: lib/WooCommerce/TransactionalEmails.php:51
+msgid "New Order: #{order_number}"
+msgstr "Comandă nouă: #{order_number}"
+
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1658
+#: lib/Config/PopulatorData/Templates/Fitness.php:1194
+#: lib/WooCommerce/TransactionalEmails.php:59
+msgid "Thanks for shopping with us"
+msgstr "Îți mulțumim că faci cumpărături de la noi"
+
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1659
+#: lib/Config/PopulatorData/Templates/Fitness.php:1195
+#: lib/WooCommerce/TransactionalEmails.php:63
+msgid "A note has been added to your order"
+msgstr "A fost adăugată o notă la comanda ta"
+
+#: lib/Form/Widget.php:142
+msgctxt "fallback for forms without a name in a form list"
+msgid "no name"
+msgstr "fără nume"
+
+#: lib/WooCommerce/TransactionalEmails.php:117
+msgctxt "Default footer text for a WooCommerce transactional email"
+msgid "Footer text"
+msgstr "Text subsol"
+
+#: lib/Util/Notices/BlackFridayNotice.php:31
+msgid "MailPoet Black Friday: 33% discount on all our plans!"
+msgstr "Black Friday la MailPoet: 33% discount la toate planurile noastre!"
+
+#: lib/Util/Notices/BlackFridayNotice.php:32
+msgid "Signup to a yearly plan today and get 4 months for free."
+msgstr "Înregistrează-te astăzi la un plan anual și primești 4 luni gratuit."
+
+#: lib/Util/Notices/BlackFridayNotice.php:34
+msgid "Buy Now"
+msgstr "Achiziționează acum"
+
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1657
+#: lib/Config/PopulatorData/Templates/Fitness.php:1193
+#: lib/WooCommerce/TransactionalEmails.php:55
+msgid "Thank you for your order"
+msgstr "Mulțumim pentru comanda ta"
+
+#: lib/API/JSON/v1/AutomaticEmails.php:33
+#: lib/API/JSON/v1/AutomaticEmails.php:58
+msgid "Improperly formatted request."
+msgstr "Cerere formatată incorect."
+
+#: lib/API/JSON/v1/AutomaticEmails.php:46
+msgid "Automatic email event filter does not exist."
+msgstr "Filtrul automat de evenimente pentru email nu există."
+
+#: lib/API/JSON/v1/AutomaticEmails.php:70
+msgid "Automatic email event does not exist."
+msgstr "Evenimentul automat pentru email nu există."
+
+#: lib/API/JSON/v1/DynamicSegments.php:75
+#: lib/API/JSON/v1/DynamicSegments.php:141
+#: lib/API/JSON/v1/DynamicSegments.php:164
+#: lib/API/JSON/v1/DynamicSegments.php:187
+msgid "Missing mandatory argument `id`."
+msgstr "Argumentul obligatoriu „id” lipsește."
+
+#: lib/API/JSON/v1/DynamicSegments.php:91
+#: lib/API/JSON/v1/DynamicSegments.php:154
+#: lib/API/JSON/v1/DynamicSegments.php:177
+#: lib/API/JSON/v1/DynamicSegments.php:197 lib/API/JSON/v1/Subscribers.php:512
+msgid "This segment does not exist."
+msgstr "Acest segment nu există."
+
+#: lib/API/JSON/v1/DynamicSegments.php:118
+msgid "Segment type is missing."
+msgstr "Tipul segmentului lipsește."
+
+#: lib/API/JSON/v1/DynamicSegments.php:120
+msgid "Segment type is unknown."
+msgstr "Tipul segmentului este necunoscut."
+
+#: lib/API/JSON/v1/DynamicSegments.php:122
+msgid "Please select user role."
+msgstr "Te rog selectează rolul utilizator."
+
+#: lib/API/JSON/v1/DynamicSegments.php:124
+msgid "Please select email action."
+msgstr "Te rog selectează acțiunea emailului."
+
+#: lib/API/JSON/v1/DynamicSegments.php:126
+msgid "Please select an email."
+msgstr "Te rog selectează un email."
+
+#: lib/API/JSON/v1/DynamicSegments.php:128
+msgid "Please select category."
+msgstr "Te rog selectează categoria."
+
+#: lib/API/JSON/v1/DynamicSegments.php:130
+msgid "Please select product."
+msgstr "Te rog selectează produsul."
+
+#: lib/API/JSON/v1/DynamicSegments.php:132
+msgid "An error occurred while saving data."
+msgstr "A apărut o eroare la salvarea datelor."
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:47
+msgid "Email sent when a customer buys a product in category: %s"
+msgstr "Email trimis când un client cumpără un produs din categoria: %s"
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:48
+msgid "Email sent when a customer buys a product in categories: %s"
+msgstr "Email trimis când un client cumpără un produs din categoriile: %s"
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:69
+msgid "Email sent when a customer buys product: %s"
+msgstr "Email trimis când un client cumpără produsul: %s"
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:70
+msgid "Email sent when a customer buys products: %s"
+msgstr "Email trimis când clientul cumpără produsele: %s"
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:45
+msgctxt "This is the name of a type for automatic email for ecommerce. Those emails are sent automatically every time a customer buys for the first time a product in a given category"
+msgid "Purchased In This Category"
+msgstr "Achiziționat în această categorie"
+
+#: lib/AutomaticEmails/AutomaticEmails.php:157
+msgid "%s automatic email group is misconfigured."
+msgstr "Grupul automat de email %s este configurat greșit."
+
+#: lib/AutomaticEmails/AutomaticEmails.php:158
+#: lib/AutomaticEmails/WooCommerce/WooCommerce.php:107
+msgid "Please contact our technical support for assistance."
+msgstr "Te rog contactează suportul nostru tehnic pentru asistență."
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:48
+msgid "Send an email to logged-in visitors who have items in their shopping carts but left your website without checking out. Can convert up to 5% of abandoned carts."
+msgstr "Trimite un email vizitatorilor autentificați care au elemente în coșul lor de cumpărături, dar ți-au părăsit websitul fără să finalizeze. Pot fi convertite până la 5% dintre coșurile abandonate."
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:60
+msgid "hour(s) later"
+msgstr "oră(e) mai târziu"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:64
+msgid "day(s) later"
+msgstr "zi(le) mai târziu"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:68
+msgid "week(s) later"
+msgstr "săptămână(i) mai târziu"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:75
+msgid "We recommend setting up 3 abandoned cart emails. Here’s why."
+msgstr "Îți recomandăm să setezi până la 3 emailuri pentru coșurile abandonate. Iată de ce."
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:73
+msgid "Email sent when a customer makes their first purchase."
+msgstr "Email trimis când un client își face prima achiziție."
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:80
+msgid "Order amount"
+msgstr "Cantitate comandă"
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:84
+msgid "Order date"
+msgstr "Dată comandă"
+
+#: lib/AutomaticEmails/WooCommerce/WooCommerce.php:63
+msgid "WooCommerce is required"
+msgstr "Este necesar WooCommerce"
+
+#: lib/AutomaticEmails/WooCommerce/WooCommerce.php:106
+msgid "WooCommerce %s event is misconfigured."
+msgstr "Evenimentul %s WooCommerce este configurat greșit."
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:47
+msgctxt "This is the name of a type of automatic email for ecommerce. Those emails are sent automatically when a customer adds product to his shopping cart but never complete the checkout process."
+msgid "Abandoned Shopping Cart"
+msgstr "Coș de cumpărături abandonat"
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:49
+msgctxt "Description of Abandoned Shopping Cart email"
+msgid "Email sent when a customer abandons his cart."
+msgstr "Email trimis când un client își abandonează coșul."
+
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:56
+msgctxt "This is a trigger setting. It means that we will send an automatic email to a visitor 30 minutes after this visitor had left the website."
+msgid "30 minutes after last page loaded"
+msgstr "30 de minute după ultima pagină încărcată"
+
+#: lib/API/JSON/API.php:194
+msgid "HTTP request method not allowed."
+msgstr "Metoda de solicitare HTTP nu este permisă."
+
+#: lib/Models/Newsletter.php:162
+msgid "This is an empty email without any content and it cannot be sent. Please update [link]the email[/link]."
+msgstr "Acesta este un email gol fără niciun conținut și nu poate fi trimis. Te rog actualizează [link]emailul[/link]."
+
+#: lib/API/JSON/v1/Subscribers.php:314
+msgid "Please fill in the CAPTCHA."
+msgstr "Te rog completează CAPTCHA."
+
+#: lib/Subscription/CaptchaRenderer.php:135
+msgid "The characters you entered did not match the CAPTCHA image. Please try again with this new image."
+msgstr "Caracterele pe care le-ai introdus nu se potrivesc cu imaginea din CAPTCHA. Te rog reîncearcă cu această imagine nouă."
+
+#: lib/Config/Populator.php:356
+msgid "Newsletter mailing list"
+msgstr "Listă corespondență buletin de știri"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:167
+msgid "This template..."
+msgstr "Acest șablon..."
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:186
+msgid "... has a..."
+msgstr "... are un..."
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:205
+msgid "3-column layout."
+msgstr "aranjament cu 3 coloane."
+
+#: lib/Config/PrivacyPolicy.php:48
+msgid "MailPoet creates and stores two cookies if you are using WooCommerce and MailPoet together. Those cookies are:"
+msgstr "MailPoet creează și stochează două cookie-uri dacă folosești împreună WooCommerce și MailPoet. Aceste cookie-uri sunt:"
+
+#: lib/Config/PrivacyPolicy.php:51 lib/Config/PrivacyPolicy.php:58
+msgid "Cookie name: %s"
+msgstr "Nume cookie: %s"
+
+#: lib/Config/PrivacyPolicy.php:53 lib/Config/PrivacyPolicy.php:60
+msgid "Cookie expiry: %s days."
+msgstr "Expirare cookie-uri: %s zile."
+
+#: lib/Config/PrivacyPolicy.php:55
+msgid "Cookie description: The purpose of this cookie is to track which newsletter sent from your website has acquired a click-through and a subsequent purchase in your WooCommerce store."
+msgstr "Descriere cookie: Scopul acestui cookie este de a urmări care buletin de știri trimis din websitul tău a obținut un clic împreună cu o achiziție ulterioară în magazinul tău WooCommerce."
+
+#: lib/Config/PrivacyPolicy.php:62
+msgid "Cookie description: The purpose of this cookie is to track a user that has abandoned their cart in your WooCommerce store to then be able to send them an abandoned cart newsletter from MailPoet."
+msgstr "Descriere cookie: scopul acestui cookie este de a urmări un utilizator care și-a abandonat coșul în magazinul tău WooCommerce și apoi pentru a fi posibil să-i trimitem un buletin de știri despre coșul abandonat de la MailPoet."
+
+#: lib/Config/PrivacyPolicy.php:65
+msgid "Note: User must be opted-in and a confirmed subscriber."
+msgstr "Notă: Utilizatorul trebuie să fi optat pentru și să fie un abonat confirmat."
+
+#: lib/Settings/SettingsController.php:72
+msgid ""
+"Hello,\n"
+"\n"
+"Welcome to our newsletter!\n"
+"\n"
+"Please confirm your subscription to our list by clicking the link below: \n"
+"\n"
+"[activation_link]I confirm my subscription![/activation_link]\n"
+"\n"
+"Thank you,\n"
+"\n"
+"The Team"
+msgstr ""
+"Bună,\n"
+"\n"
+"Bun venit la buletinul nostru de știri!\n"
+"\n"
+"Te rog confirmă-ți abonarea la lista noastră printr-un clic pe legătura de mai jos: \n"
+"\n"
+"[activation_link]Îmi confirm abonarea![/activation_link]\n"
+"\n"
+"Mulțumesc,\n"
+"\n"
+"Echipa"
+
+#: lib/Config/Populator.php:286
+msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
+msgid "I would like to receive exclusive emails with discounts and product information"
+msgstr "Mi-ar plăcea să primesc emailuri exclusive cu discounturi și informații de produse"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:167
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:167
+msgid "This template has..."
+msgstr "Acest șablon are..."
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:186
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:186
+msgid "... a 2-column layout."
+msgstr "... un aranjament cu 2 coloane."
+
+#: lib/API/JSON/v1/Subscribers.php:348
+msgid "Please regenerate the CAPTCHA."
+msgstr "Te rog regenerează CAPTCHA."
+
+#: lib/API/JSON/v1/Subscribers.php:355
+msgid "The characters entered do not match with the previous CAPTCHA."
+msgstr "Caracterele introduse nu se potrivesc cu cele de la CAPTCHA anterioară."
+
+#: lib/Cron/Workers/StatsNotifications/AutomatedEmails.php:106
+msgid "Your monthly stats are in!"
+msgstr "Statisticile tale lunare sunt aici!"
+
+#: lib/Subscription/CaptchaRenderer.php:44
+msgid "Confirm you’re not a robot"
+msgstr "Confirmă că nu ești robot"
+
+#: lib/Subscription/CaptchaRenderer.php:54
+msgid "Type in the characters you see in the picture above:"
+msgstr "Introdu caracterele pe care le vezi în poza de mai sus:"
+
+#: lib/Subscription/CaptchaRenderer.php:68
+msgid "Subscribe"
+msgstr "Abonare"
+
+#: lib/Subscription/Throttling.php:69
+msgid "%d hours"
+msgstr "%d ore"
+
+#: lib/Subscription/Throttling.php:70
+msgid "%d minutes"
+msgstr "%d minute"
+
+#: lib/Subscription/Throttling.php:71
+msgid "%d seconds"
+msgstr "%d secunde"
+
+#: lib/Twig/Functions.php:288 lib/Twig/Functions.php:298
+msgid "EXCELLENT"
+msgstr "EXCELENT"
+
+#: lib/Twig/Functions.php:290 lib/Twig/Functions.php:300
+msgid "GOOD"
+msgstr "BUN"
+
+#: lib/Twig/Functions.php:292 lib/Twig/Functions.php:302
+msgid "BAD"
+msgstr "SLAB"
+
+#: lib/Cron/Workers/StatsNotifications/Worker.php:183
+msgid "Manage subscription link"
+msgstr "Legătură gestionare abonament"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:115
+msgid "The MailPoet Sending Service has stopped sending your emails for one of the following reasons:"
+msgstr "Serviciul de corespondență MailPoet a oprit trimiterea emailurilor tale din cauza unuia dintre motivele următoare:"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:118
+msgid "You may have reached the subscriber limit of your plan. [link]Manage your subscriptions[/link]."
+msgstr "S-ar putea să fi atins limita abonaților din planul tău. [link]Gestionează-ți abonamentele[/link]."
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:127
+msgid "You may have had a poor deliverability rate. Please [link]contact our support team[/link] to resolve the issue."
+msgstr "S-ar putea să ai o rată de livrare scăzută. Te rog [link]contactează echipa noastră de suport[/link] pentru a rezolva această problemă."
+
+#: lib/Subscribers/ConfirmationEmailMailer.php:117
+#: lib/Subscribers/ConfirmationEmailMailer.php:128
+msgid "Something went wrong with your subscription. Please contact the website owner."
+msgstr "Ceva nu a mers bine cu abonamentul tău. Te rog contactează proprietarul websitului."
+
+#: lib/API/JSON/v1/Newsletters.php:110 lib/API/JSON/v1/Newsletters.php:127
+#: lib/API/JSON/v1/Newsletters.php:170 lib/API/JSON/v1/Newsletters.php:221
+#: lib/API/JSON/v1/Newsletters.php:237 lib/API/JSON/v1/Newsletters.php:251
+#: lib/API/JSON/v1/Newsletters.php:268 lib/API/JSON/v1/Newsletters.php:283
+#: lib/API/JSON/v1/Newsletters.php:306
+msgid "This email does not exist."
+msgstr "Acest email nu există."
+
+#: lib/API/JSON/v1/SendingTaskSubscribers.php:56
+msgid "This email has not been sent yet."
+msgstr "Acest email nu a fost trimis încă."
+
+#: lib/API/JSON/v1/SendingTaskSubscribers.php:93
+msgid "Failed sending task not found!"
+msgstr "Sarcina de trimitere eșuată nu a fost găsită!"
+
+#: lib/Util/Notices/InactiveSubscribersNotice.php:52
+msgid "Go to the Advanced Settings"
+msgstr "Mergi la Setări avansate"
+
+#: lib/Util/Notices/InactiveSubscribersNotice.php:55
+msgid "Good news! MailPoet won’t send emails to your %s inactive subscribers. This is a standard practice to maintain good deliverability and open rates. But if you want to disable it, you can do so in settings. [link]Read more.[/link]"
+msgstr "Vești bune! MailPoet nu va trimite emailuri celor %s abonații inactivi. Aceasta este o practică implicită pentru a menține bune ratele de livrare și deschidere. Dar dacă vrei să o dezactivezi, poți face asta în setări. [link]Citește mai mult.[/link]"
+
+#: lib/Models/ScheduledTaskSubscriber.php:118
+msgctxt "status when a newsletter has been sent"
+msgid "Sent"
+msgstr "Trimise"
+
+#: lib/Models/ScheduledTaskSubscriber.php:123
+msgctxt "status when the sending of a newsletter has failed"
+msgid "Failed"
+msgstr "Eșuat"
+
+#: lib/Models/ScheduledTaskSubscriber.php:128
+msgctxt "status when the sending of a newsletter has not been processed"
+msgid "Unprocessed"
+msgstr "Neprocesat"
+
+#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:49
+msgid "<b>Your automatic emails have been paused</b> because some email addresses haven’t been authorized yet."
+msgstr "<b>Emailurile tale automate au fost întrerupte</b> pentru că încă nu au fost autorizate câteva adrese de email."
+
+#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:56
+msgctxt "%s will be replaced by a newsletter subject"
+msgid "Update the from address of %s"
+msgstr "Actualizează adresa expeditorului de la %s"
+
+#: lib/CustomFields/ApiDataSanitizer.php:37
+msgid "Mandatory argument \"%s\" is missing"
+msgstr "Argumentul obligatoriu „%s” lipsește"
+
+#: lib/CustomFields/ApiDataSanitizer.php:40
+msgid "Mandatory argument \"%s\" has to be string"
+msgstr "Argumentul obligatoriu „%s” trebuie să fie șir"
+
+#: lib/CustomFields/ApiDataSanitizer.php:46
+msgid "Params has to be array"
+msgstr "Parametrii trebuie să fie vectori"
+
+#: lib/CustomFields/ApiDataSanitizer.php:91
+msgid "Invalid type \"%s\""
+msgstr "Tip invalid „%s”"
+
+#: lib/CustomFields/ApiDataSanitizer.php:100
+msgid "Validate parameter is not valid"
+msgstr "Parametrul de validare nu este valid"
+
+#: lib/CustomFields/ApiDataSanitizer.php:107
+msgid "You need to pass exactly one value for checkbox"
+msgstr "Trebuie să treci exact o valoare pentru bifă"
+
+#: lib/CustomFields/ApiDataSanitizer.php:126
+msgid "Invalid date_format for year_month_day"
+msgstr "date_format invalid pentru year_month_day"
+
+#: lib/CustomFields/ApiDataSanitizer.php:132
+msgid "Invalid date_format for year_month"
+msgstr "date_format invalid pentru year_month"
+
+#: lib/CustomFields/ApiDataSanitizer.php:146
+msgid "Invalid value for date_type"
+msgstr "Valoare invalidă pentru date_type"
+
+#: lib/CustomFields/ApiDataSanitizer.php:156
+msgid "You need to pass some values for this type"
+msgstr "Trebuie să treci câteva valori pentru acest tip"
+
+#: lib/CustomFields/ApiDataSanitizer.php:167
+msgid "Value cannot be empty"
+msgstr "Valoarea nu poate fi goală"
+
+#: lib/Models/Form.php:127 lib/Models/Form.php:134 lib/Form/FormFactory.php:54
+msgid "You’ve been successfully subscribed to our newsletter!"
+msgstr "Ai fost abonat cu succes la buletinul nostru de știri!"
+
+#: lib/Util/Notices/UnauthorizedEmailNotice.php:44
+msgctxt "Email addresses have to be authorized to be used to send emails. %s will be replaced by an email address."
+msgid "<b>Sending all of your emails has been paused</b> because your email address %s hasn’t been authorized yet."
+msgstr "<b>Trimiterea tuturor emailurilor tale a fost întreruptă</b> pentru că adresa ta de email %s nu a fost încă autorizată."
+
+#: lib/Config/AccessControl.php:74
+msgid "Manage features"
+msgstr "Administrare funcționalități"
+
+#: lib/Config/Populator.php:285
+msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
+msgid "Yes, I would like to be added to your mailing list"
+msgstr "Da, mi-ar plăcea să fiu adăugat în lista ta de corespondență"
+
+#: lib/Util/Notices/PHPVersionWarnings.php:28
+msgid "Your website is running on PHP %s which MailPoet does not officially support. Read our [link]simple PHP upgrade guide[/link] or let MailPoet’s support team upgrade it for you."
+msgstr "Websitul tău rulează pe PHP %s pe care MailPoet nu îl suportă în mod oficial. Citește [link]ghidul nostru simplu de actualizare PHP[/link] sau lasă echipa de suport MailPoet să-l actualizeze pentru tine."
+
+#: lib/Util/Notices/PHPVersionWarnings.php:30
+msgid "[link]Yes, I want MailPoet to help me upgrade for free[/link]"
+msgstr "[link]Da, vreau ca MailPoet să mă ajute să actualizez în mod gratuit[/link]"
+
+#: lib/API/MP/v1/API.php:367
+msgid "Failed to add list"
+msgstr "Adăugarea listei nu a reușit"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:192
+#: lib/Subscribers/SubscriberListingRepository.php:218
+msgid "Inactive"
+msgstr "Inactiv"
+
+#: lib/Config/PopulatorData/Templates/Birds.php:22
+msgid "Birds"
+msgstr "Păsări"
+
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:22
+msgid "Buddhist Temple"
+msgstr "Templu Budist"
+
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:22
+msgid "Fashion Blog"
+msgstr "Blog de modă"
+
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:22
+msgid "Women Fashion Store"
+msgstr "Magazin de modă pentru femei"
+
+#: lib/Config/PopulatorData/Templates/FashionShop.php:22
+msgid "Kids Shop"
+msgstr "Magazin pentru copii"
+
+#: lib/Config/PopulatorData/Templates/Guitarist.php:22
+msgid "Guitarist"
+msgstr "Chitarist"
+
+#: lib/Config/PopulatorData/Templates/JazzClub.php:22
+msgid "Jazz Club"
+msgstr "Club de jazz"
+
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:22
+msgid "Makeup Blog"
+msgstr "Blog de cosmetică"
+
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:22
+msgid "Lifestyle Blog"
+msgstr "Blog pentru stil de viață"
+
+#: lib/Config/PopulatorData/Templates/Mosque.php:22
+msgid "Mosque"
+msgstr "Moschee"
+
+#: lib/Config/PopulatorData/Templates/Motor.php:22
+msgid "Motor"
+msgstr "Motor"
+
+#: lib/Config/PopulatorData/Templates/Painter.php:22
+msgid "Painter"
+msgstr "Pictor"
+
+#: lib/Config/PopulatorData/Templates/Photography.php:22
+msgid "Photography"
+msgstr "Fotografie"
+
+#: lib/Config/PopulatorData/Templates/Poet.php:22
+msgid "Poet"
+msgstr "Poet"
+
+#: lib/Config/PopulatorData/Templates/RockBand.php:22
+msgid "Rock Band"
+msgstr "Bandă rock"
+
+#: lib/Config/PopulatorData/Templates/Synagogue.php:22
+msgid "Synagogue"
+msgstr "Sinagogă"
+
+#: lib/Config/PopulatorData/Templates/Vlogger.php:22
+msgid "Vlogger"
+msgstr "Vlogger"
+
+#: lib/Config/PopulatorData/Templates/WineCity.php:21
+msgid "Wine City (with coupon)"
+msgstr "Orașul vinului (include cupon)"
+
+#: lib/API/JSON/v1/UserFlags.php:32
+msgid "You have not specified any user flags to be saved."
+msgstr "Nu ai specificat niciun steag utilizator pentru a fi salvat."
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:98
+msgid "The MailPoet Sending Service did not send your latest email because the address %s is not yet authorized."
+msgstr "Serviciul de corespondență MailPoet nu a trimis ultimul tău email pentru că adresa %s nu este încă autorizată."
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:98
+msgid "Unknown address"
+msgstr "Adresă necunoscută"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:101
+msgid "[link]Authorize your email in your account now.[/link]"
+msgstr "[link]Autorizează-ți acum emailul în cont.[/link]"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:109
+msgid "Resume sending"
+msgstr "Reia trimiterea"
+
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:21
+msgid "Branding Agency News"
+msgstr "Știri agenție de branding"
+
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:22
+msgid "City News"
+msgstr "Știri din oraș"
+
+#: lib/Config/PopulatorData/Templates/College.php:22
+msgid "College"
+msgstr "Facultate"
+
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:22
+msgid "Computer Repair"
+msgstr "Reparații calculatoare"
+
+#: lib/Config/PopulatorData/Templates/Engineering.php:21
+msgid "Engineering"
+msgstr "Inginerie"
+
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:21
+msgid "Farmers Market"
+msgstr "Piața fermierilor"
+
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:21
+msgid "Healthy Food Blog"
+msgstr "Blog de mâncare sănătoasă"
+
+#: lib/Config/PopulatorData/Templates/PrimarySchool.php:22
+msgid "Primary School"
+msgstr "Școală primară"
+
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:21
+msgid "Renewable Energy"
+msgstr "Energie regenerabilă"
+
+#: lib/Config/PopulatorData/Templates/Software.php:21
+msgid "Software"
+msgstr "Programe"
+
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:22
+msgid "WordPress Theme"
+msgstr "Temă WordPress"
+
+#: lib/Models/Segment.php:161
+msgid "WooCommerce Customers"
+msgstr "Clienți WooCommerce"
+
+#: lib/Models/Segment.php:163
+msgid "This list contains all of your WooCommerce customers."
+msgstr "Această listă conține toți clienți tăi WooCommerce."
+
+#: lib/Subscribers/ImportExport/Import/MailChimp.php:130
+msgid "Unknown MailChimp error."
+msgstr "Eroare MailChimp necunoscută."
+
+#: lib/Cron/Workers/StatsNotifications/Worker.php:131
+msgctxt "title of an automatic email containing statistics (newsletter open rate, click rate, etc)"
+msgid "Stats for email %s"
+msgstr "Statistici pentru emailul %s"
+
+#: lib/Cron/Workers/StatsNotifications/Worker.php:149
+msgctxt "newsletter open rate, click rate and unsubscribe rate"
+msgid "%1$s%% opens, %2$s%% clicks, %3$s%% unsubscribes in a nutshell."
+msgstr "%1$s%% deschise, %2$s%% clicuite, %3$s%% dezabonați pe scurt."
+
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:22
+msgid "Book store (with coupon)"
+msgstr "Magazin de cărți (include cupon)"
+
+#: lib/Config/PopulatorData/Templates/ClearNews.php:22
+msgid "Clear News"
+msgstr "Știri clare"
+
+#: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:22
+msgid "Flowers (with coupon)"
+msgstr "Flori (include cupon)"
+
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:22
+msgid "Industry Conference"
+msgstr "Industria conferinței"
+
+#: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:22
+msgid "Newspaper Traditional"
+msgstr "Buletin de știri tradițional"
+
+#: lib/Cron/Workers/SendingQueue/Tasks/Newsletter.php:169
+msgid "No subject"
+msgstr "Fără subiect"
+
+#: lib/Subscribers/NewSubscriberNotificationMailer.php:94
+msgid "New subscriber to %s"
+msgstr "Abonat nou la %s"
+
+#: lib/Mailer/MailerError.php:94
+msgid "Unprocessed subscriber:"
+msgstr "Abonat neprocesat:"
+
+#: lib/Config/PopulatorData/Templates/Avocado.php:22
+msgid "Avocado"
+msgstr "Avocado"
+
+#: lib/Config/PopulatorData/Templates/Charity.php:22
+msgid "Charity"
+msgstr "Caritate"
+
+#: lib/Config/PopulatorData/Templates/Coffee.php:22
+msgid "Coffee"
+msgstr "Cafea"
+
+#: lib/Config/PopulatorData/Templates/DogFood.php:22
+msgid "Dog Food"
+msgstr "Mâncare pentru câini"
+
+#: lib/Config/PopulatorData/Templates/Drone.php:22
+msgid "Drone"
+msgstr "Drone"
+
+#: lib/Config/PopulatorData/Templates/FashionStore.php:22
+msgid "Fashion Store"
+msgstr "Magazin de modă"
+
+#: lib/Config/PopulatorData/Templates/GiftWelcome.php:22
+msgid "Gift Welcome"
+msgstr "Cadou de bun venit"
+
+#: lib/Config/PopulatorData/Templates/Hotels.php:22
+msgid "Hotels"
+msgstr "Hoteluri"
+
+#: lib/Config/PopulatorData/Templates/Minimal.php:22
+msgid "Minimal"
+msgstr "Minimal"
+
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:22
+msgid "Modular Style Stories"
+msgstr "Stil povestiri modulare"
+
+#: lib/Config/PopulatorData/Templates/Music.php:21
+msgid "Music"
+msgstr "Muzică"
+
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:22
+msgid "One Full Post In An Email"
+msgstr "Un întreg articol într-un email"
+
+#: lib/Config/PopulatorData/Templates/Phone.php:22
+msgid "New Phone Purchase"
+msgstr "Achiziție de telefon nou"
+
+#: lib/Config/PopulatorData/Templates/RealEstate.php:22
+msgid "Real Estate"
+msgstr "Proprietate imobiliară"
+
+#: lib/Config/PopulatorData/Templates/Retro.php:22
+msgid "Retro"
+msgstr "Retro"
+
+#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:21
+msgid "Retro Computing Magazine"
+msgstr "Revistă de calculatoare retro"
+
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:21
+msgid "Stripped RSS Style Layout"
+msgstr "Stil aranjament RSS gol"
+
+#: lib/Config/PopulatorData/Templates/Sunglasses.php:21
+msgid "Sunglasses"
+msgstr "Ochelari de soare"
+
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:21
+msgid "Wide Story Layout"
+msgstr "Aranjament de poveste larg"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:81
+msgid "Invalid MSS response format."
+msgstr "Formatul răspunsului MSS este invalid."
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewsletterClicksExporter.php:52
+msgid "URL"
+msgstr "URL"
+
+#: lib/Util/Notices/AfterMigrationNotice.php:39
+msgid "Congrats! You’re progressing well so far. Complete your upgrade thanks to this [link]checklist[/link]."
+msgstr "Felicitări! Progresezi bine până acum. Completează-ți actualizarea mulțumită acestei [link]liste de verificare[/link]."
+
+#: lib/Config/Menu.php:332 lib/Config/Menu.php:333
+msgid "Welcome Wizard"
+msgstr "Expert de bun venit"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:41
+msgid "JSON input is not an array"
+msgstr "Intrarea JSON nu este o matrice"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:45
+msgid "Error while sending."
+msgstr "Eroare în timpul trimiterii."
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:58
+msgid "Email service is temporarily not available, please try again in a few minutes."
+msgstr "Serviciul de email nu este momentan disponibil, te rog reîncearcă în câteva minute."
+
+#: lib/API/JSON/v1/Services.php:137
+msgid "Note that it doesn't work on localhost."
+msgstr "Reține că nu funcționează pe localhost."
+
+#: lib/AutomaticEmails/WooCommerce/WooCommerce.php:55
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:75
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:51
+msgid "Must-have"
+msgstr "Obligatoriu"
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:71
+msgid "First Purchase"
+msgstr "Prima achiziție"
+
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:72
+msgid "Let MailPoet send an email to customers who make their first purchase."
+msgstr "Permite MailPoet să trimită un email clienților care au făcut prima lor achiziție."
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:67
+msgid "Purchased This Product"
+msgstr "A cumpărat acest produs"
+
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:46
+msgid "Let MailPoet send an email to customers who purchase a product for the first time in a specific category."
+msgstr "Permite ca MailPoet să trimită un email clienților care cumpără pentru prima dată un produs dintr-o anumită categorie."
+
+#: lib/API/JSON/v1/Subscribers.php:321
+msgid "Please check the CAPTCHA."
+msgstr "Te rog verifică CAPTCHA."
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:79
+msgid "Subscriber's subscription source"
+msgstr "Sursă abonare abonat"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:98
+msgid "Subscriber information synchronized via WP user sync"
+msgstr "Informații abonat sincronizate prin sincronizarea utilizatorului WP"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:100
+msgid "Subscription via a MailPoet subscription form"
+msgstr "Abonare prin formularul de abonare MailPoet"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:102
+msgid "Added by a 3rd party via MailPoet 3 API"
+msgstr "Adăugat de o terță parte prin API MailPoet 3"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:104
+msgid "Created by the administrator"
+msgstr "Creat de administrator"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:106
+msgid "Imported by the administrator"
+msgstr "Importat de administrator"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:108
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: lib/Config/PersonalDataErasers.php:18
+msgid "MailPoet Subscribers"
+msgstr "Abonați MailPoet"
+
+#: lib/Config/PersonalDataExporters.php:48
+msgid "MailPoet Email Clicks"
+msgstr "Clicuri email MailPoet"
+
+#: lib/Config/PrivacyPolicy.php:22
+msgid "MailPoet newsletter & emails"
+msgstr "Buletin de știri și emailuri MailPoet"
+
+#: lib/Config/PrivacyPolicy.php:25
+msgid "If you have subscribed to our newsletter or if you are a member of our website (you can log in) or if you have purchased on our website, there is a good chance you will receive emails from us."
+msgstr "Dacă te-ai abonat la buletinul nostru de știri sau ești un membru al websitului nostru (te poți autentifica) sau dacă ai cumpărat de pe websitul nostru, există șansa să primești emailuri de la noi."
+
+#: lib/Config/PrivacyPolicy.php:28
+msgid "We will only send you emails which you have signed up to receive, or which pertain to the services we provided to you."
+msgstr "Îți vom trimite doar emailurile pentru care te-ai înregistrat sau care se referă la serviciile pe care le-am furnizat."
+
+#: lib/Config/PrivacyPolicy.php:31
+msgid "To send you emails, we use the name and email address you provide us. Our site also logs the IP address you used when you signed up for the service to prevent abuse of the system."
+msgstr "Pentru a-ți trimite emailuri, folosim numele și adresa de email pe care ni le-ai furnizat. Situl nostru înregistrează adresa ta IP pe care ai folosit-o când te-ai înscris pentru serviciu, pentru a preveni abuzarea sistemului."
+
+#: lib/Config/PrivacyPolicy.php:35
+msgid "This website can send emails through the [link]MailPoet sending service[/link]. This service allows us to track opens and clicks on our emails. We use this information to improve the content of our newsletters."
+msgstr "Acest websit poate trimite emailuri prin [link]serviciul de corespondență MailPoet[/link]. Acest serviciu ne permite să urmărim deschiderile și clicurile din emailurile noastre. Folosim informațiile pentru a îmbunătăți conținutul buletinelor noastre de știri."
+
+#: lib/Config/PrivacyPolicy.php:41
+msgid "No identifiable information is otherwise tracked outside this website except for the email address."
+msgstr "Nicio informație identificabilă nu este altfel urmărită în afara acestui websit, cu excepția adresei de email."
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewsletterClicksExporter.php:48
+msgid "Timestamp of the click event"
+msgstr "Datarea evenimentului clic"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewsletterClicksExporter.php:57
+msgid "MailPoet Emails Clicks"
+msgstr "Clicuri emailuri MailPoet"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:57
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:66
+msgid "Opened"
+msgstr "Deschis"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:61
+msgid "Opened at"
+msgstr "Deschis la"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:67
+msgid "No"
+msgstr "Nu"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:64
+msgid "Created at"
+msgstr "Creat la"
+
+#: lib/Config/PersonalDataExporters.php:24
+msgid "MailPoet Lists"
+msgstr "Liste MailPoet"
+
+#: lib/Config/PersonalDataExporters.php:32
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:25
+msgid "MailPoet Subscriber Data"
+msgstr "Date abonat MailPoet"
+
+#: lib/Config/PersonalDataExporters.php:40
+msgid "MailPoet Emails"
+msgstr "Emailuri MailPoet"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewsletterClicksExporter.php:44
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:48
+msgid "Email subject"
+msgstr "Subiect email"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:52
+msgid "Sent at"
+msgstr "Trimis la"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:72
+msgid "Email preview"
+msgstr "Previzualizare email"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/NewslettersExporter.php:81
+msgid "MailPoet Emails Sent"
+msgstr "Emailuri MailPoet trimise"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SegmentsExporter.php:35
+msgid "List name"
+msgstr "Nume listă"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SegmentsExporter.php:43
+msgid "Timestamp of the subscription (or last change of the subscription status)"
+msgstr "Datarea abonării (sau ultima schimbare a stării abonării)"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SegmentsExporter.php:48
+msgid "MailPoet Mailing Lists"
+msgstr "Liste corespondență MailPoet"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:53
+msgid "Subscribed IP"
+msgstr "IP abonat"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:59
+msgid "Confirmed IP"
+msgstr "IP confirmat"
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SegmentsExporter.php:39
+msgid "Subscription status"
+msgstr "Stare abonament"
+
+#: lib/Cron/Workers/SendingQueue/Migration.php:62
+msgid "Your sending queue data is being migrated to allow better performance, sending is paused while the migration is in progress and will resume automatically upon completion. This may take a few minutes."
+msgstr "Datele din coada de expediere sunt migrate pentru a permite o performanță mai bună, trimiterea este întreruptă în timp ce migrarea este în desfășurare și va fi reluată automat la finalizare. Aceasta ar putea să dureze câteva minute."
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:63
+msgctxt "Subscription status"
+msgid "List status"
+msgstr "Stare listă"
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:64
+msgctxt "Subscription status"
+msgid "Global status"
+msgstr "Stare globală"
+
+#: lib/API/JSON/v1/Subscribers.php:335 lib/API/JSON/v1/Subscribers.php:341
+msgid "Error while validating the CAPTCHA."
+msgstr "Eroare la validarea CAPTCHA."
+
+#: lib/Subscription/Pages.php:359
+msgid "Subscription management form is only available to mailing lists subscribers."
+msgstr "Formularul de administrare al abonării este disponibil doar abonaților din listele de corespondență."
+
+#: lib/Subscription/Pages.php:399
+msgid "Link to subscription management page is only available to mailing lists subscribers."
+msgstr "Legătura către pagina de administrare a abonării este disponibilă doar abonaților din listele de corespondență."
+
+#: mailpoet.php:56
+msgid "MailPoet plugin requires WordPress version 4.6 or newer. Please read our [link]instructions[/link] on how to resolve this issue."
+msgstr "Modulul MailPoet solicită WordPress versiunea 4.6 sau mai nouă. Te rog citește [link]instrucțiunile[/link] noastre despre cum să rezolvi această problemă."
+
+#: lib/API/MP/v1/API.php:133 lib/API/MP/v1/API.php:221
+msgid "At least one segment ID is required."
+msgstr "Este necesar cel puțin un ID de segment."
+
+#: lib/API/MP/v1/API.php:168 lib/API/MP/v1/API.php:253
+msgid "List with ID %s does not exist."
+msgid_plural "Lists with IDs %s do not exist."
+msgstr[0] "Lista cu ID-ul %s nu există."
+msgstr[1] "Listele cu ID-urile %s nu există."
+msgstr[2] "Listele cu ID-urile %s nu există."
+
+#: lib/API/MP/v1/API.php:337
+msgid "List name is required."
+msgstr "Este necesar numele listei."
+
+#: lib/API/MP/v1/API.php:345
+msgid "This list already exists."
+msgstr "Această listă deja există."
+
+#: lib/Form/Block/BlockRendererHelper.php:55
+msgid "This field is required."
+msgstr "Acest câmp este obligatoriu."
+
+#: lib/API/JSON/API.php:114
+msgid "Sorry, but we couldn't connect to the MailPoet server. Please refresh the web page and try again."
+msgstr "Regret, dar nu ne-am putut conecta la serverul MailPoet. Te rog împrospătează pagina web și încearcă din nou."
+
+#: lib/Config/AccessControl.php:72
+msgid "Admin menu item"
+msgstr "Element meniu administrare"
+
+#: lib/Config/AccessControl.php:73
+msgid "Manage settings"
+msgstr "Administrează setări"
+
+#: lib/Config/AccessControl.php:75
+msgid "Manage emails"
+msgstr "Administrează emailuri"
+
+#: lib/Config/AccessControl.php:77
+msgid "Manage forms"
+msgstr "Administrează formulare"
+
+#: lib/Config/AccessControl.php:78
+msgid "Manage segments"
+msgstr "Administrează segmente"
+
+#: lib/Config/AccessControl.php:76
+msgid "Manage subscribers"
+msgstr "Administrează abonații"
+
+#: lib/Config/MP2Migrator.php:181
+msgid "Start import"
+msgstr "Începe import"
+
+#: lib/Config/MP2Migrator.php:200
+msgid "Import complete"
+msgstr "Import complet"
+
+#: lib/Config/MP2Migrator.php:205
+msgid "End import"
+msgstr "Sfârșit import"
+
+#: lib/Config/MP2Migrator.php:267
+msgid "Import stopped by user"
+msgstr "Import oprit de utilizator"
+
+#: lib/API/JSON/API.php:190
+msgid "Invalid API endpoint method."
+msgstr "Metodă punct final API invalidă."
+
+#: lib/Config/Initializer.php:127
+msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
+msgstr "Nu se poate conecta la baza de date (baza de date nu poate deschide un fișier sau un director), este posibil să nu fie configurată corect conexiunea. Te rog citește [link]articolul nostru despre Baza de cunoștințe[/link] pentru pașii de rezolvare."
+
+#: lib/API/JSON/v1/Services.php:130
+msgid "Your MailPoet Sending Service key is already used on another site"
+msgstr "Cheia ta pentru serviciul de corespondență MailPoet este deja folosită pe un alt sit"
+
+#: lib/Config/ServicesChecker.php:92
+msgid "[link1]Register[/link1] your copy of the MailPoet Premium plugin to receive access to automatic upgrades and support. Need a license key? [link2]Purchase one now.[/link2]"
+msgstr "[link1]Înregistrează-ți[/link1] copia modulului MailPoet Premium pentru a primi acces la actualizările automate și suport. Ai nevoie de o cheie de licență? [link2]Achiziționează una acum.[/link2]"
+
+#: lib/Form/Renderer.php:82
+msgid "Please leave this field empty"
+msgstr "Te rog lasă gol acest câmp"
+
+#: lib/API/JSON/v1/Subscribers.php:199
+msgid "Please leave the first field empty."
+msgstr "Te rog lasă gol primul câmp."
+
+#: lib/Models/SendingQueue.php:41
+msgid "Rendered newsletter body is invalid!"
+msgstr "Corpul randat al buletinului de știri este invalid!"
+
+#: lib/Cron/Workers/SendingQueue/Tasks/Newsletter.php:247
+msgid "There was an error processing your newsletter during sending. If possible, please contact us and report this issue."
+msgstr "A apărut o eroare la procesarea buletinului tău de știri în timpul trimiterii. Dacă este posibil, te rog contactează-ne și raportează această problemă."
+
+#: lib/API/JSON/v1/Services.php:254
+msgid "Service unavailable"
+msgstr "Serviciu indisponibil"
+
+#: lib/API/JSON/v1/Services.php:257
+msgid "Contact your hosting support to check the connection between your host and https://bridge.mailpoet.com"
+msgstr "Contactează suportul serviciului tău de găzduire pentru a verifica conexiunea dintre gazdă și https://bridge.mailpoet.com"
+
+#: lib/Config/MP2Migrator.php:1102
+msgid "Settings imported"
+msgstr "Setări importate"
+
+#: lib/API/JSON/v1/Services.php:260
+msgctxt "Error code (inside parentheses)"
+msgid "code: %s"
+msgstr "cod: %s"
+
+#: lib/Config/MP2Migrator.php:314
+msgid "%d form"
+msgid_plural "%d forms"
+msgstr[0] "%d formular"
+msgstr[1] "%d formulare"
+msgstr[2] "%d de formulare"
+
+#: lib/Config/MP2Migrator.php:818
+msgid "Importing forms..."
+msgstr "Se importă formulare..."
+
+#: lib/Config/MP2Migrator.php:837
+msgid "%d form imported"
+msgid_plural "%d forms imported"
+msgstr[0] "%d formular importat"
+msgstr[1] "%d formulare importate"
+msgstr[2] "%d de formulare importate"
+
+#: lib/Config/Menu.php:305 lib/Config/Menu.php:306
+msgid "Help"
+msgstr "Ajutor"
+
+#: lib/Config/PopulatorData/Templates/AppWelcome.php:22
+msgid "App Welcome"
+msgstr "Aplicație de bun venit"
+
+#: lib/Config/PopulatorData/Templates/Faith.php:22
+msgid "Faith"
+msgstr "Credință"
+
+#: lib/Config/PopulatorData/Templates/FestivalEvent.php:22
+msgid "Festival Event"
+msgstr "Festivaluri"
+
+#: lib/Config/PopulatorData/Templates/FoodBox.php:22
+msgid "Welcome to FoodBox"
+msgstr "Bun venit la FoodBox"
+
+#: lib/Config/PopulatorData/Templates/NewsDay.php:22
+msgid "News Day"
+msgstr "Știrile zilei"
+
+#: lib/Config/PopulatorData/Templates/PieceOfCake.php:22
+msgid "Piece of cake"
+msgstr "Bucată de prăjitură"
+
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:21
+msgid "Science Weekly"
+msgstr "Știință săptămânală"
+
+#: lib/Config/PopulatorData/Templates/Shoes.php:21
+msgid "Shoes"
+msgstr "Pantofi"
+
+#: lib/Config/PopulatorData/Templates/TakeAHike.php:21
+msgid "Take a Hike"
+msgstr "Fă o plimbare"
+
+#: lib/Config/PopulatorData/Templates/WorldCup.php:21
+msgid "World Cup"
+msgstr "Cupa mondială"
+
+#: lib/Config/PopulatorData/Templates/YogaStudio.php:21
+msgid "Yoga Studio"
+msgstr "Studio Yoga"
+
+#: lib/Form/AssetsController.php:93
+msgid "An error has happened while performing a request, please try again later."
+msgstr "A apărut o eroare la efectuarea unei solicitări, te rog încearcă din nou mai târziu."
+
+#: lib/Config/MP2Migrator.php:229
+msgid "MailPoet data erased"
+msgstr "Datele din MailPoet au fost șterse"
+
+#: lib/Config/MP2Migrator.php:299
+msgid "MailPoet 2 data found:"
+msgstr "S-au găsit date MailPoet 2:"
+
+#: lib/Config/MP2Migrator.php:304
+msgid "%d subscribers list"
+msgid_plural "%d subscribers lists"
+msgstr[0] "%d listă abonați"
+msgstr[1] "%d liste abonați"
+msgstr[2] "%d de liste abonați"
+
+#: lib/Config/MP2Migrator.php:309
+msgid "%d subscriber"
+msgid_plural "%d subscribers"
+msgstr[0] "%d abonat"
+msgstr[1] "%d abonați"
+msgstr[2] "%d de abonați"
+
+#: lib/Config/MP2Migrator.php:331
+msgid "Importing segments..."
+msgstr "Se importă segmente..."
+
+#: lib/Config/MP2Migrator.php:352
+msgid "%d segment imported"
+msgid_plural "%d segments imported"
+msgstr[0] "%d segment importat"
+msgstr[1] "%d segmente importate"
+msgstr[2] "%d de segmente importate"
+
+#: lib/Config/MP2Migrator.php:420
+msgid "Importing custom fields..."
+msgstr "Se importă câmpuri personalizate..."
+
+#: lib/Config/MP2Migrator.php:430
+msgid "%d custom field imported"
+msgid_plural "%d custom fields imported"
+msgstr[0] "%d câmp personalizat importat"
+msgstr[1] "%d câmpuri personalizate importate"
+msgstr[2] "%d de câmpuri personalizate importate"
+
+#: lib/Config/MP2Migrator.php:568
+msgid "Importing subscribers..."
+msgstr "Se importă abonați..."
+
+#: lib/Config/MP2Migrator.php:590
+msgid "%d subscriber imported"
+msgid_plural "%d subscribers imported"
+msgstr[0] "%d abonat importat"
+msgstr[1] "%d abonați importați"
+msgstr[2] "%d de abonați importați"
+
+#: lib/Config/Menu.php:358
+msgid "Migration"
+msgstr "Migrare"
+
+#: lib/Config/PluginActivatedHook.php:19
+msgid "We noticed that you're using an unsupported environment. While MailPoet might work within a MultiSite environment, we don’t support it."
+msgstr "Am observat că folosești un mediu neacceptat. În timp ce MailPoet ar putea funcționa într-un mediu Multi-sit, nu îl acceptăm."
+
+#: mailpoet.php:95
+msgid "MailPoet plugin cannot run under Microsoft's Internet Information Services (IIS) web server. We recommend that you use a web server powered by Apache or NGINX."
+msgstr "Modulul MailPoet nu poate rula pe web serverul de la Microsoft, Serviciul de informații internet (IIS). Îți recomandăm să folosești un server web de la Apache sau NGINX."
+
+#: lib/API/JSON/v1/Services.php:109
+msgid "Your MailPoet Sending Service key has been successfully validated"
+msgstr "Cheia ta pentru serviciul de corespondență MailPoet a fost validată cu succes"
+
+#: lib/API/JSON/v1/Services.php:112
+msgid "Your MailPoet Sending Service key expires on %s!"
+msgstr "Cheia serviciului de corespondență MailPoet expiră pe %s!"
+
+#: lib/API/JSON/v1/Services.php:134
+msgid "Error validating MailPoet Sending Service key, please try again later (%s)."
+msgstr "Eroare la validarea cheii serviciului de corespondență MailPoet, te rog reîncearcă mai târziu (%s)."
+
+#: lib/API/JSON/v1/Services.php:174
+msgid "Your Premium key expires on %s"
+msgstr "Cheia ta Premium expiră în %s"
+
+#: lib/Config/Menu.php:319 lib/Config/Menu.php:320
+msgid "Premium"
+msgstr "Premium"
+
+#: lib/Subscribers/ImportExport/Import/Import.php:121
+msgid "No valid subscribers were found."
+msgstr "Nu există abonați valabili."
+
+#: lib/API/API.php:22
+msgid "Invalid API version."
+msgstr "Versiune API invalidă."
+
+#: lib/API/MP/v1/API.php:276
+msgid "Subscriber email address is required."
+msgstr "Este necesară adresa de email a abonatului."
+
+#: lib/API/MP/v1/API.php:284
+msgid "This subscriber already exists."
+msgstr "Acest abonat deja există."
+
+#: lib/API/JSON/v1/Services.php:171
+msgid "Your Premium key has been successfully validated"
+msgstr "Cheia ta Premium a fost validată cu succes"
+
+#: lib/API/JSON/v1/Services.php:195
+msgid "Your Premium key is already used on another site"
+msgstr "Cheia ta Premium este deja folosită pe un alt sit"
+
+#: lib/API/JSON/v1/Services.php:200
+msgid "Error validating Premium key, please try again later (%s)"
+msgstr "Eroare la validarea cheii Premium, te rog reîncearcă mai târziu (%s)"
+
+#: lib/Config/ServicesChecker.php:115
+msgid "Your License Key for MailPoet is expiring! Don't forget to [link]renew your license[/link] by %s to keep enjoying automatic updates and Premium support."
+msgstr "Cheia licență pentru MailPoet expiră! Nu uita să [link]îți reînnoiești licența[/link] prin %s pentru a continua să te bucuri de actualizările automate și suportul Premium."
+
+#: lib/API/JSON/API.php:142
+msgid "Invalid API request."
+msgstr "Cerere API invalidă."
+
+#: lib/API/JSON/API.php:185
+msgid "Invalid API endpoint."
+msgstr "Punct final API invalid."
+
+#: lib/Config/RequirementsChecker.php:74
+msgid "MailPoet requires a PDO_MYSQL PHP extension. Please read our [link]instructions[/link] on how to resolve this issue."
+msgstr "MailPoet solicită o extensie PHP PDO_MYSQL. Te rog citește [link]instrucțiunile[/link] noastre pentru a afla cum să rezolvi această problemă."
+
+#: lib/Config/RequirementsChecker.php:84
+msgid "MailPoet requires an XML PHP extension. Please read our [link]instructions[/link] on how to resolve this issue."
+msgstr "MailPoet solicită o extensie PHP XML. Te rog citește [link]instrucțiunile[/link] noastre pentru a afla cum să rezolvi această problemă."
+
+#: lib/Subscribers/ImportExport/Import/Import.php:113
+msgid "Missing or invalid import data."
+msgstr "Datele de import lipsesc sau sunt invalide."
+
+#: lib/Mailer/MailerError.php:96
+msgid "Unprocessed subscribers:"
+msgstr "Abonați neprocesați:"
+
+#: lib/API/JSON/v1/Services.php:82 lib/API/JSON/v1/Services.php:154
+msgid "Please specify a key."
+msgstr "Te rog specifică o cheie."
+
+#: lib/Config/ServicesChecker.php:62
+msgid "Your newsletters are awesome! Don't forget to [link]upgrade your MailPoet email plan[/link] by %s to keep sending them to your subscribers."
+msgstr "Buletinele tale de știri sunt grozave! Nu uita să-ți [link]actualizezi planul de email MailPoet[/link] prin %s pentru a continua să le trimiți abonaților tăi."
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:28
+msgid "MailPoet API key is invalid!"
+msgstr "Cheia API MailPoet este invalidă!"
+
+#: lib/Subscribers/ImportExport/Export/Export.php:88
+msgid "The export file could not be saved on the server."
+msgstr "Fișierul de export nu a putut fi salvat pe server."
+
+#: lib/API/JSON/v1/Subscribers.php:194
+msgid "Please specify a valid form ID."
+msgstr "Te rog specifică un ID de formular valid."
+
+#: lib/Models/Newsletter.php:333
+msgid "Deleted list"
+msgstr "Listă ștearsă"
+
+#: lib/Config/RequirementsChecker.php:96
+msgid "A MailPoet dependency (%s) does not appear to be loaded correctly, thus MailPoet will not work correctly. Please reinstall the plugin."
+msgstr "O dependență MailPoet (%s) nu pare să fie încărcată corect astfel încât MailPoet nu va funcționa corect. Te rog reinstalează modulul."
+
+#: lib/Config/RequirementsChecker.php:107
+msgid "MailPoet has detected a dependency conflict (%s) with another plugin (%s), which may cause unexpected behavior. Please disable the offending plugin to fix this issue."
+msgstr "MailPoet a detectat un conflict de dependență (%s) cu alt modul (%s), ceea ce ar putea cauza un comportament neașteptat. Te rog dezactivează modulul cu pricina pentru a rezolva această problemă."
+
+#: lib/Newsletter/Preview/SendPreviewController.php:88
+#: lib/API/JSON/v1/Mailer.php:64
+msgid "The email could not be sent: %s"
+msgstr "Emailul nu a putut fi trimis: %s"
+
+#: lib/Mailer/MailerLog.php:56
+msgid "Sending has been paused."
+msgstr "Trimiterea a fost întreruptă."
+
+#: lib/Mailer/MailerLog.php:60
+msgid "Sending is waiting to be retried."
+msgstr "Trimiterea așteaptă să fie reluată."
+
+#: lib/Mailer/Methods/ErrorMappers/PHPMailMapper.php:30
+#: lib/Mailer/Methods/ErrorMappers/AmazonSESMapper.php:36
+#: lib/Mailer/Methods/ErrorMappers/SMTPMapper.php:44
+#: lib/Mailer/Methods/ErrorMappers/SendGridMapper.php:22
+#: lib/Mailer/Methods/ErrorMappers/BlacklistErrorMapperTrait.php:14
+msgid "%s has returned an unknown error."
+msgstr "%s a returnat o eroare necunoscută."
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:180
+#: lib/Subscribers/SubscriberListingRepository.php:223
+msgid "Bounced"
+msgstr "Sărit"
+
+#: lib/Config/RequirementsChecker.php:53
+msgid "MailPoet requires write permissions inside the /wp-content/uploads folder. Please read our [link]instructions[/link] on how to resolve this issue."
+msgstr "MailPoet solicită drepturi de scriere în interiorul dosarului /wp-content/uploads. Te rog citește [link]instrucțiunile[/link] noastre pentru a afla cum să rezolvi această problemă."
+
+#: mailpoet.php:109
+msgid "MailPoet cannot start because it is missing core files. Please reinstall the plugin."
+msgstr "MailPoet nu poate porni pentru că lipsesc fișiere nucleu. Te rog reinstalează modulul."
+
+#: lib/API/JSON/v1/Subscribers.php:237
+msgid "Please select a list."
+msgstr "Te rog selectează o listă."
+
+#: lib/API/JSON/v1/Subscribers.php:258
+msgid "You need to wait %s before subscribing again."
+msgstr "Trebuie să aștepți %s înainte de a te abona din nou."
+
+#: lib/Config/Renderer.php:111
+msgid "Failed to render template \"%s\". Please ensure the template cache folder \"%s\" exists and has write permissions. Terminated with error: \"%s\""
+msgstr "Randarea șablonului „%s” a eșuat. Te rog asigură-te că dosarul cache „%s” al șablonului există și are permisiuni de scriere. Încheiat eroare: „%s”"
+
+#: lib/Form/Util/Export.php:62
+msgid "BEGIN Scripts: you should place them in the header of your theme"
+msgstr "ÎNCEPUT scripturi: ar trebui să le poziționezi în antetul temei tale"
+
+#: lib/Form/Util/Export.php:94
+msgid "END Scripts"
+msgstr "SFÂRȘIT scripturi"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:195
+msgid "<h3>What's Next?</h3>"
+msgstr "<h3>Ce urmează?</h3>"
+
+#: lib/Router/Router.php:56 lib/API/JSON/API.php:205
+msgid "You do not have the required permissions."
+msgstr "Nu ai permisiunile necesare."
+
+#: lib/API/JSON/ErrorHandler.php:18 lib/API/JSON/Endpoint.php:33
+#: lib/API/JSON/ErrorResponse.php:26
+msgid "An unknown error occurred."
+msgstr "A apărut o eroare necunoscută."
+
+#: lib/API/JSON/Endpoint.php:42
+msgid "Invalid request parameters"
+msgstr "Parametri cerere invalizi"
+
+#: lib/API/JSON/v1/CustomFields.php:51 lib/API/JSON/v1/CustomFields.php:74
+msgid "This custom field does not exist."
+msgstr "Acest câmp personalizat nu există."
+
+#: lib/API/JSON/v1/Forms.php:91 lib/API/JSON/v1/Forms.php:109
+#: lib/API/JSON/v1/Forms.php:194 lib/API/JSON/v1/Forms.php:287
+#: lib/API/JSON/v1/Forms.php:305 lib/API/JSON/v1/Forms.php:319
+#: lib/API/JSON/v1/Forms.php:348
+msgid "This form does not exist."
+msgstr "Acest formular nu există."
+
+#: lib/API/JSON/v1/Forms.php:200
+msgid "New form"
+msgstr "Formular nou"
+
+#: lib/Newsletter/NewsletterSaveController.php:163
+#: lib/Segments/SegmentSaveController.php:40 lib/API/JSON/v1/Forms.php:329
+msgid "Copy of %s"
+msgstr "Copie după %s"
+
+#: lib/API/JSON/v1/NewsletterTemplates.php:51
+#: lib/API/JSON/v1/NewsletterTemplates.php:90
+msgid "This template does not exist."
+msgstr "Acest șablon nu există."
+
+#: lib/API/JSON/v1/Forms.php:100 lib/API/JSON/v1/Newsletters.php:157
+msgid "You need to specify a status."
+msgstr "Trebuie să specifici o stare."
+
+#: lib/API/JSON/v1/Newsletters.php:276
+msgid "Newsletter data is missing."
+msgstr "Datele buletinului de știri lipsesc."
+
+#: lib/API/JSON/v1/Newsletters.php:299
+msgid "Please specify receiver information."
+msgstr "Te rog specifică informațiile destinatarului."
+
+#: lib/API/JSON/v1/SendingQueue.php:55 lib/API/JSON/v1/SendingQueue.php:150
+#: lib/API/JSON/v1/SendingQueue.php:181
+msgid "This newsletter does not exist."
+msgstr "Acest buletin de știri nu există."
+
+#: lib/API/JSON/v1/SendingQueue.php:77
+msgid "This newsletter is already being sent."
+msgstr "Acest buletin de știri este deja trimis."
+
+#: lib/API/JSON/v1/SendingQueue.php:106
+msgid "There are no subscribers in that list!"
+msgstr "Nu există abonați în lista respectivă!"
+
+#: lib/API/JSON/v1/SendingQueue.php:140 lib/API/JSON/v1/SendingQueue.php:171
+msgid "This newsletter has not been sent yet."
+msgstr "Acest buletin de știri încă nu a fost trimis."
+
+#: lib/API/JSON/v1/Settings.php:68
+msgid "You have not specified any settings to be saved."
+msgstr "Nu ai specificat nicio setare pentru a fi salvată."
+
+#: lib/API/JSON/v1/Subscribers.php:143 lib/API/JSON/v1/Subscribers.php:454
+#: lib/API/JSON/v1/Subscribers.php:470 lib/API/JSON/v1/Subscribers.php:482
+#: lib/API/JSON/v1/Subscribers.php:497 lib/API/JSON/v1/SubscriberStats.php:42
+#: lib/API/MP/v1/API.php:139 lib/API/MP/v1/API.php:227
+#: lib/API/MP/v1/API.php:377
+msgid "This subscriber does not exist."
+msgstr "Acest abonat nu există."
+
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:43
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:51
+#: lib/Form/Templates/Templates/InitialForm.php:25 lib/API/MP/v1/API.php:63
+msgid "Email"
+msgstr "Email"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:141
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:52
+#: lib/API/MP/v1/API.php:71
+msgid "First name"
+msgstr "Prenume"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:150
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:53
+#: lib/API/MP/v1/API.php:79
+msgid "Last name"
+msgstr "Nume"
+
+#: lib/AdminPages/Pages/Newsletters.php:131
+msgid "In any WordPress role"
+msgstr "În orice rol WordPress"
+
+#. Author of the plugin
+#: lib/Config/PrivacyPolicy.php:15 lib/Config/Capabilities.php:80
+#: lib/Config/Menu.php:451
+msgid "MailPoet"
+msgstr "MailPoet"
+
+#: lib/Config/Hooks.php:344
+msgid "MailPoet Newsletter"
+msgstr "Buletin de știri MailPoet"
+
+#: lib/Config/Menu.php:112 lib/Config/Menu.php:113
+msgid "Emails"
+msgstr "Emailuri"
+
+#: lib/Config/Menu.php:137 lib/Newsletter/Shortcodes/ShortcodesHelper.php:43
+msgid "Newsletter"
+msgstr "Buletin de știri"
+
+#: lib/Config/Menu.php:138
+msgid "Newsletter Editor"
+msgstr "Editor buletin de știri"
+
+#: lib/Config/Menu.php:150 lib/Config/Menu.php:151
+msgid "Forms"
+msgstr "Formulare"
+
+#: lib/Config/Menu.php:216 lib/Config/Menu.php:217
+msgid "Subscribers"
+msgstr "Abonați"
+
+#: lib/Config/Menu.php:241 lib/Config/Menu.php:242
+msgid "Import"
+msgstr "Import"
+
+#: lib/Config/Menu.php:254 lib/Config/Menu.php:255
+msgid "Export"
+msgstr "Export"
+
+#: lib/Config/Menu.php:267 lib/Config/Menu.php:268
+msgid "Lists"
+msgstr "Liste"
+
+#: lib/Config/Menu.php:292 lib/Config/Menu.php:293
+msgid "Settings"
+msgstr "Setări"
+
+#: lib/Config/Populator.php:358
+msgid "This list is automatically created when you install MailPoet."
+msgstr "Această listă este creată automat atunci când instalezi MailPoet."
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:26
+msgid "Newsletter: Blank 1:2:1 Column"
+msgstr "Buletin de știri: gol 1:2:1 coloană"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:117
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:117
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:117
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:117
+#: lib/Config/PopulatorData/Templates/SimpleText.php:76
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:117
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:117
+msgid "Fake logo"
+msgstr "Logo fals"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:129
+msgid ""
+"<h1 style=\"text-align: center;\"><strong>Let's Get Started!</strong></h1>\n"
+"<p>It's time to design your newsletter! In the right sidebar, you'll find four menu items that will help you customize your newsletter:</p>\n"
+"<ol>\n"
+"<li>Content</li>\n"
+"<li>Columns</li>\n"
+"<li>Styles</li>\n"
+"<li>Preview</li>\n"
+"</ol>"
+msgstr ""
+"<h1 style=\"text-align: center;\"><strong>Să începem!</strong></h1>\n"
+"<p>Este timpul să proiectăm buletinul tău de știri! În bara laterală dreapta vei găsi patru elemente de meniu care te vor ajuta să-ți personalizezi buletinul de știri:</p>\n"
+"<ol>\n"
+"<li>Conținut</li>\n"
+"<li>Coloane</li>\n"
+"<li>Stiluri</li>\n"
+"<li>Previzualizare</li>\n"
+"</ol>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:171
+msgid ""
+"<p>In the right sidebar, you can add layout blocks to your email:</p>\n"
+"<ul>\n"
+"<li>1 column</li>\n"
+"<li>2 columns</li>\n"
+"<li>3 columns</li>\n"
+"</ul>"
+msgstr ""
+"<p>În bara laterală dreapta poți adăuga blocuri aranjament la adresa ta de email:</p>\n"
+"<ul>\n"
+"<li>1 coloană</li>\n"
+"<li>2 coloane</li>\n"
+"<li>3 coloane</li>\n"
+"</ul>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:190
+msgid "You can change a layout's background color by clicking on the settings icon on the right edge of the Designer. Simply hover over this area to see the Settings (gear) icon."
+msgstr "Poți schimba culoarea de fundal a aranjamentului prin clic pe iconul de setări pe marginea din dreapta a designer-ului. Pur și simplu pune mausul peste zonă pentru a vedea iconul de setări (rotița)."
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:26
+msgid "Newsletter: Blank 1:2 Column"
+msgstr "Buletin de știri: gol 1:2 Coloană"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:171
+msgid ""
+"<p>In the right sidebar, you can add these layout blocks to your email:</p>\n"
+"<ul>\n"
+"<li>1 column</li>\n"
+"<li>2 columns</li>\n"
+"<li>3 columns</li>\n"
+"</ul>"
+msgstr ""
+"<p>În bara laterală dreapta poți adăuga aceste blocuri aranjament în emailul tău:</p>\n"
+"<ul>\n"
+"<li>1 coloană</li>\n"
+"<li>2 coloane</li>\n"
+"<li>3 coloane</li>\n"
+"</ul>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:190
+msgid "<p><span style=\"line-height: 25.6px;\">You can change a layout's background color by clicking on the settings icon on the right edge of the Designer. Simply hover over this area to see the Settings (gear) icon.</span></p>"
+msgstr "<p><span style=\"line-height: 25.6px;\">Poți schimba culoarea de fundal a aranjamentului prin clic pe iconița de setări de pe marginea din dreapta a Designer-ului. Pur și simplu acoperă această zonă pentru a vedea iconița (unealta) Setări.</span></p>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:250
+msgid ""
+"<h3 style=\"text-align: center;\"><span style=\"font-weight: 600;\">Let's end with a single column. </span></h3>\n"
+"<p style=\"line-height: 25.6px;\">In the right sidebar, you can add these layout blocks to your email:</p>\n"
+"<p style=\"line-height: 25.6px;\"></p>\n"
+"<ul style=\"line-height: 25.6px;\">\n"
+"<li>1 column</li>\n"
+"<li>2 columns</li>\n"
+"<li>3 columns</li>\n"
+"</ul>"
+msgstr ""
+"<h3 style=\"text-align: center;\"><span style=\"font-weight: 600;\">Să încheiem cu o singură coloană.</span></h3>\n"
+"<p style=\"line-height: 25.6px;\">În bara laterală dreapta poți adăuga aceste blocuri aranjament în emailul tău:</p>\n"
+"<p style=\"line-height: 25.6px;\"></p>\n"
+"<ul style=\"line-height: 25.6px;\">\n"
+"<li>1 coloană</li>\n"
+"<li>2 coloane</li>\n"
+"<li>3 coloane</li>\n"
+"</ul>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:129
+msgid ""
+"<h1 style=\"text-align: center;\"><strong>Let's Get Started!</strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>It's time to design your newsletter! In the right sidebar, you'll find 4 menu items that will help you customize your newsletter:</p>\n"
+"<ol>\n"
+"<li>Content</li>\n"
+"<li>Columns</li>\n"
+"<li>Styles</li>\n"
+"<li>Preview</li>\n"
+"</ol>"
+msgstr ""
+"<h1 style=\"text-align: center;\"><strong>Să începem!</strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>Este timpul să-ți proiectăm buletinul de știri! În bara laterală dreapta vei găsit 4 elemente de meniu care te vor ajuta să-ți personalizezi buletinul de știri:</p>\n"
+"<ol>\n"
+"<li>Conținut</li>\n"
+"<li>Coloane</li>\n"
+"<li>Stiluri</li>\n"
+"<li>Previzualizare</li>\n"
+"</ol>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:26
+msgid "Newsletter: Blank 1:3 Column"
+msgstr "Buletin de știri: gol 1:3 coloană"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:129
+msgid ""
+"<h1 style=\"text-align: center;\"><strong>Let's Get Started! </strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>It's time to design your newsletter! In the right sidebar, you'll find four menu items that will help you customize your newsletter:</p>\n"
+"<ol>\n"
+"<li>Content</li>\n"
+"<li>Columns</li>\n"
+"<li>Styles</li>\n"
+"<li>Preview</li>\n"
+"</ol>"
+msgstr ""
+"<h1 style=\"text-align: center;\"><strong>Să începem! </strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>Este timpul să-ți proiectăm buletinul de știri! În bara laterală dreapta vei găsi patru elemente de meniu care te vor ajuta să-ți personalizezi buletinul de știri:</p>\n"
+"<ol>\n"
+"<li>Conținut</li>\n"
+"<li>Coloane</li>\n"
+"<li>Stiluri</li>\n"
+"<li>Previzualizare</li>\n"
+"</ol>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:171
+msgid "In the right sidebar, you can add layout blocks to your newsletter."
+msgstr "În bara laterală dreapta, poți adăuga blocuri de aranjament la buletinul tău de știri."
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:190
+msgid ""
+"<p>You have the choice of:</p>\n"
+"<ul>\n"
+"<li>1 column</li>\n"
+"<li>2 columns</li>\n"
+"<li>3 columns</li>\n"
+"</ul>"
+msgstr ""
+"<p>Ai posibilitatea să alegi:</p>\n"
+"<ul>\n"
+"<li>1 coloană</li>\n"
+"<li>2 coloane</li>\n"
+"<li>3 coloane</li>\n"
+"</ul>"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:209
+msgid "You can add as many layout blocks as you want!"
+msgstr "Poți adăuga atâtea blocuri de aranjamente câte vrei!"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:26
+msgid "Newsletter: Blank 1 Column"
+msgstr "Buletin de știri: gol 1 coloană"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:129
+msgid ""
+"<h1 style=\"text-align: center;\"><strong>Let's Get Started! </strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>It's time to design your newsletter! In the right sidebar, you'll find 4 menu items that will help you customize your newsletter:</p>\n"
+"<ol>\n"
+"<li>Content</li>\n"
+"<li>Columns</li>\n"
+"<li>Styles</li>\n"
+"<li>Preview</li>\n"
+"</ol>"
+msgstr ""
+"<h1 style=\"text-align: center;\"><strong>Să începem! </strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>Este timpul să-ți proiectăm buletinul de știri! În bara laterală dreapta vei găsi 4 elemente de meniu care te vor ajuta să-ți personalizezi buletinul de știri:</p>\n"
+"<ol>\n"
+"<li>Conținut</li>\n"
+"<li>Coloane</li>\n"
+"<li>Stiluri</li>\n"
+"<li>Previzualizare</li>\n"
+"</ol>"
+
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:26
+msgid "Post Notifications: Blank 1 Column"
+msgstr "Notificări articol: gol 1 coloană"
+
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1295
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1355
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1476
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:170
+msgid "Author:"
+msgstr "Autor:"
+
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1298
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:172
+msgid "Categories:"
+msgstr "Categorii:"
+
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:177
+msgid "Read the post"
+msgstr "Citește articolul"
+
+#: lib/Config/PopulatorData/Templates/SimpleText.php:26
+msgid "Simple Text"
+msgstr "Text simplu"
+
+#: lib/Config/PopulatorData/Templates/SimpleText.php:88
+msgid ""
+"<p style=\"text-align: left;\">Hi [subscriber:firstname | default:subscriber],</p>\n"
+"<p style=\"text-align: left;\"></p>\n"
+"<p style=\"text-align: left;\">In MailPoet, you can write emails in plain text, just like in a regular email. This can make your email newsletters more personal and attention-grabbing.</p>\n"
+"<p style=\"text-align: left;\"></p>\n"
+"<p style=\"text-align: left;\">Is this too simple? You can still style your text with basic formatting, like <strong>bold</strong> or <em>italics.</em></p>\n"
+"<p style=\"text-align: left;\"></p>\n"
+"<p style=\"text-align: left;\">Finally, you can also add a call-to-action button between 2 blocks of text, like this:</p>"
+msgstr ""
+"<p style=\"text-align: left;\">Salut [subscriber:firstname | default:subscriber],</p>\n"
+"<p style=\"text-align: left;\"></p>\n"
+"<p style=\"text-align: left;\">În MailPoet poți scrie emailuri în text simplu ca și într-un email normal. Asta îți poate face buletinul de știri din email mai personal și poate atrage atenția.</p>\n"
+"<p style=\"text-align: left;\"></p>\n"
+"<p style=\"text-align: left;\">Ți se pare prea simplu? Îți poți stiliza textul cu formate de bază precum <strong>aldin</strong> sau <em>italic</em></p>\n"
+"<p style=\"text-align: left;\"></p>\n"
+"<p style=\"text-align: left;\">În final poți adăuga și butoane de apel la acțiune între 2 blocuri text, așa:</p>"
+
+#: lib/Config/PopulatorData/Templates/SimpleText.php:123
+msgid "It's time to take action!"
+msgstr "Este timpul să acționezi!"
+
+#: lib/Config/PopulatorData/Templates/SimpleText.php:144
+msgid ""
+"<p>Thanks for reading. See you soon!</p>\n"
+"<p>&nbsp;</p>\n"
+"<p><strong><em>The MailPoet Team</em></strong></p>"
+msgstr ""
+"<p>Mulțumim pentru că ai citit. Ne auzim în curând!</p>\n"
+"<p>&nbsp;</p>\n"
+"<p><strong><em>Echipa MailPoet</em></strong></p>"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:26
+msgid "Welcome Email: Blank 1:2 Column"
+msgstr "Email de bun venit: gol 1:2 coloană"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:129
+msgid ""
+"<h1 style=\"text-align: center;\"><strong>Hi, new subscriber!</strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>[subscriber:firstname | default:Subscriber],</p>\n"
+"<p>&nbsp;</p>\n"
+"<p>You recently joined our list and we'd like to give you a warm welcome!</p>"
+msgstr ""
+"<h1 style=\"text-align: center;\"><strong>Salut, noule abonat!</strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>[subscriber:firstname | default:Subscriber],</p>\n"
+"<p>&nbsp;</p>\n"
+"<p>Recent te-ai alăturat listei noastre și ne-ar plăcea să-ți urăm un călduros bun venit!</p>"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:176
+msgid "<h3>Our Most Popular Posts</h3>"
+msgstr "<h3>Cele mai populare articole ale noastre</h3>"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:180
+msgid ""
+"<ul>\n"
+"<li><a href=\"http://www.mailpoet.com/the-importance-of-focus-when-writing/\">The Importance of Focus When Writing</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/write-great-subject-line/\">How to Write a Great Subject Line</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/just-sit-write-advice-motivation-ernest-hemingway/\">Just Sit Down and Write &ndash; Advice on Motivation from Ernest Hemingway</a></li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><a href=\"http://www.mailpoet.com/the-importance-of-focus-when-writing/\">Importanța focusului atunci când scrii</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/write-great-subject-line/\">Cum să scrii un subiect grozav</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/just-sit-write-advice-motivation-ernest-hemingway/\">Stai jos și scrie &ndash; Sfaturi despre motivație de la Ernest Hemingway</a></li>\n"
+"</ul>"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:199
+msgid "<p>Add a single button to your newsletter in order to have one clear call-to-action, which will increase your click rates.</p>"
+msgstr "<p>Adaugă un singur buton la buletinul tău de știri pentru a avea un apel la acțiune clar, ceea ce va crește ratele de clicuri.</p>"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:203
+msgid "Read up!"
+msgstr "Citește!"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:26
+msgid "Welcome Email: Blank 1 Column"
+msgstr "Email de bun venit: gol 1 coloană"
+
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:129
+msgid ""
+"<h1 style=\"text-align: center;\"><strong>Hi, new subscriber!</strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>[subscriber:firstname | default:Subscriber],</p>\n"
+"<p>&nbsp;</p>\n"
+"<p>You recently joined our list and we'd like to give you a warm welcome!</p>\n"
+"<p>&nbsp;</p>\n"
+"<p>Want to get to know us better? Check out some of our most popular articles: </p>\n"
+"<ol>\n"
+"<li><a href=\"http://www.mailpoet.com/the-importance-of-focus-when-writing/\">The Importance of Focus When Writing</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/write-great-subject-line/\">How to Write a Great Subject Line</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/just-sit-write-advice-motivation-ernest-hemingway/\">Just Sit Down and Write &ndash; Advice on Motivation from Ernest Hemingway</a></li>\n"
+"</ol>"
+msgstr ""
+"<h1 style=\"text-align: center;\"><strong>Salut, noule abonat!</strong></h1>\n"
+"<p>&nbsp;</p>\n"
+"<p>[subscriber:firstname | default:Subscriber],</p>\n"
+"<p>&nbsp;</p>\n"
+"<p>Recent te-ai alăturat listei noastre și ne-ar plăcea să-ți urăm un călduros bun venit!</p>\n"
+"<p>&nbsp;</p>\n"
+"<p>Vrei să ne cunoști mai bine? Consultă câteva dintre cele mai populare articole ale noastre:</p>\n"
+"<ol>\n"
+"<li><a href=\"http://www.mailpoet.com/the-importance-of-focus-when-writing/\">Importanța focusului atunci când scrii</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/write-great-subject-line/\">Cum să scrii un subiect grozav</a></li>\n"
+"<li><a href=\"http://www.mailpoet.com/just-sit-write-advice-motivation-ernest-hemingway/\">Stai jos și scrie &ndash; Sfaturi despre motivație de la Ernest Hemingway</a></li>\n"
+"</ol>"
+
+#: lib/Config/Shortcodes.php:112
+msgid "Oops! There are no newsletters to display."
+msgstr "Hopa! Nu există buletine de știri pentru afișare."
+
+#: lib/Config/Shortcodes.php:146
+msgid "Preview in a new tab"
+msgstr "Previzualizează într-o filă nouă"
+
+#: lib/Cron/CronHelper.php:189 lib/Cron/CronHelper.php:210
+msgid "Site URL is unreachable."
+msgstr "URL-ul sitului este inaccesibil."
+
+#: lib/Cron/CronHelper.php:216
+msgid "Maximum execution time has been reached."
+msgstr "A fost atins timpul maxim de execuție."
+
+#: lib/Cron/DaemonHttpRunner.php:60
+msgid "Invalid or missing request data."
+msgstr "Datele cererii sunt invalide sau lipsesc."
+
+#: lib/Cron/DaemonHttpRunner.php:63
+msgid "Daemon does not exist."
+msgstr "Daemon-ul nu există."
+
+#: lib/Cron/Workers/StatsNotifications/Worker.php:182
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:91
+msgid "Unsubscribe link"
+msgstr "Legătură dezabonare"
+
+#: lib/Cron/Workers/StatsNotifications/Worker.php:184
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:107
+msgid "View in browser link"
+msgstr "Legătură de vizualizare în navigator"
+
+#: lib/Form/Block/BlockRendererHelper.php:37
+msgid "Please specify a valid email address."
+msgstr "Te rog specifică o adresă de email validă."
+
+#: lib/Form/Block/BlockRendererHelper.php:50
+msgid "Please select a list"
+msgstr "Te rog selectează o listă"
+
+#: lib/Form/Block/BlockRendererHelper.php:61
+msgid "Please specify a valid phone number"
+msgstr "Te rog specifică un număr de telefon valid"
+
+#: lib/Form/Block/BlockRendererHelper.php:70
+msgid "Please select at least one option"
+msgstr "Te rog selectează cel puțin o opțiune"
+
+#: lib/Form/Block/Date.php:69
+msgid "Please select a day"
+msgstr "Te rog selectează o zi"
+
+#: lib/Form/Block/Date.php:71 lib/Form/Block/Date.php:198
+msgid "Day"
+msgstr "Zi"
+
+#: lib/Form/Block/Date.php:78
+msgid "Please select a month"
+msgstr "Te rog selectează o lună"
+
+#: lib/Form/Block/Date.php:80 lib/Form/Block/Date.php:142
+msgid "Month"
+msgstr "Lună"
+
+#: lib/Form/Block/Date.php:87
+msgid "Please select a year"
+msgstr "Te rog selectează un an"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:85 lib/Form/Block/Date.php:89
+#: lib/Form/Block/Date.php:105 lib/Form/Block/Date.php:172
+msgid "Year"
+msgstr "An"
+
+#: lib/Form/Block/Date.php:102
+msgid "Year, month, day"
+msgstr "An, lună, zi"
+
+#: lib/Form/Block/Date.php:103
+msgid "Year, month"
+msgstr "An, lună"
+
+#: lib/Form/Block/Date.php:104
+msgid "Month (January, February,...)"
+msgstr "Luna (Ianuarie, Februarie,...)"
+
+#: lib/Form/Block/Date.php:119
+msgid "January"
+msgstr "Ianuarie"
+
+#: lib/Form/Block/Date.php:119
+msgid "February"
+msgstr "Februarie"
+
+#: lib/Form/Block/Date.php:119
+msgid "March"
+msgstr "Martie"
+
+#: lib/Form/Block/Date.php:119
+msgid "April"
+msgstr "Aprilie"
+
+#: lib/Form/Block/Date.php:120
+msgid "May"
+msgstr "Mai"
+
+#: lib/Form/Block/Date.php:120
+msgid "June"
+msgstr "Iunie"
+
+#: lib/Form/Block/Date.php:120
+msgid "July"
+msgstr "Iulie"
+
+#: lib/Form/Block/Date.php:120
+msgid "August"
+msgstr "August"
+
+#: lib/Form/Block/Date.php:120
+msgid "September"
+msgstr "Septembrie"
+
+#: lib/Form/Block/Date.php:121
+msgid "October"
+msgstr "Octombrie"
+
+#: lib/Form/Block/Date.php:121
+msgid "November"
+msgstr "Noiembrie"
+
+#: lib/Form/Block/Date.php:121
+msgid "December"
+msgstr "Decembrie"
+
+#: lib/Form/Templates/Templates/InitialForm.php:38
+msgid "Submit"
+msgstr "Trimite"
+
+#: lib/Form/Templates/Templates/InitialForm.php:41
+msgid "Subscribe!"
+msgstr "Abonează-te!"
+
+#: lib/Form/Widget.php:31
+msgid "MailPoet 3 Form"
+msgstr "Formular MailPoet 3"
+
+#: lib/Form/Widget.php:32
+msgid "Add a newsletter subscription form"
+msgstr "Adaugă un formular de abonare la buletinul de știri"
+
+#: lib/Form/Widget.php:113
+msgid "Subscribe to Our Newsletter"
+msgstr "Abonează-te la buletinul nostru de știri"
+
+#: lib/Form/Widget.php:128
+msgid "Title:"
+msgstr "Titlu:"
+
+#: lib/Form/Widget.php:149 lib/PostEditorBlocks/SubscriptionFormBlock.php:61
+msgid "Create a new form"
+msgstr "Crează un formular nou"
+
+#: lib/Mailer/Mailer.php:123
+msgid "Mailing method does not exist."
+msgstr "Metoda de corespondență nu există."
+
+#: lib/Mailer/Mailer.php:131
+msgid "Mailer is not configured."
+msgstr "Corespondentul nu este configurat."
+
+#: lib/Mailer/Mailer.php:139
+msgid "Sender name and email are not configured."
+msgstr "Numele și emailul expeditorului nu sunt configurate."
+
+#: lib/Mailer/MailerLog.php:68
+msgid "Sending frequency limit has been reached."
+msgstr "Limita frecvenței de trimitere a fost atinsă."
+
+#: lib/Mailer/Methods/AmazonSES.php:71
+msgid "Unsupported Amazon SES region"
+msgstr "Regiune Amazon SES nesuportată"
+
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/CustomField.php:30
+#: lib/Models/Segment.php:31 lib/API/JSON/v1/Segments.php:109
+msgid "Please specify a name."
+msgstr "Te rog specifică un nume."
+
+#: lib/Models/Newsletter.php:66 lib/Models/CustomField.php:33
+msgid "Please specify a type."
+msgstr "Te rog specifică un tip."
+
+#: lib/Models/ScheduledTaskSubscriber.php:113 lib/Models/DynamicSegment.php:74
+#: lib/Models/Form.php:104
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:109
+#: lib/Subscribers/SubscriberListingRepository.php:198
+#: lib/Segments/SegmentListingRepository.php:97
+msgid "All"
+msgstr "Toate"
+
+#: lib/Models/DynamicSegment.php:79 lib/Models/Form.php:109
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:176
+#: lib/Subscribers/SubscriberListingRepository.php:228
+#: lib/Segments/SegmentListingRepository.php:102
+msgid "Trash"
+msgstr "Gunoi"
+
+#: lib/Models/Form.php:125 lib/Models/Form.php:133 lib/Models/Form.php:135
+#: lib/Form/FormFactory.php:52
+msgid "Check your inbox or spam folder to confirm your subscription."
+msgstr "Verifică-ți dosarul de intrări sau spam pentru a-ți confirma abonarea."
+
+#: lib/Models/Model.php:247
+msgid "Another record already exists. Please specify a different \"%1$s\"."
+msgstr "Există deja o altă înregistrare. Te rog specifică un „%1$s” diferit."
+
+#: lib/Models/Subscriber.php:162
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:65
+#: lib/Subscribers/SubscriberListingRepository.php:263
+msgid "All Lists"
+msgstr "Toate listele"
+
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:120
+msgid "Draft"
+msgstr "Schițe"
+
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:125
+msgid "Scheduled"
+msgstr "Programate"
+
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:130
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:145
+msgid "Sending"
+msgstr "Se trimit"
+
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:135
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:150
+msgid "Sent"
+msgstr "Trimise"
+
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:162
+msgid "Active"
+msgstr "Activ"
+
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:167
+msgid "Not active"
+msgstr "Inactiv"
+
+#: lib/Models/NewsletterOptionField.php:24
+msgid "Please specify a newsletter type."
+msgstr "Te rog specifică un tip al buletinului de știri."
+
+#: lib/Models/Segment.php:143
+msgid "WordPress Users"
+msgstr "Utilizatori WordPress"
+
+#: lib/Models/Segment.php:145
+msgid "This list contains all of your WordPress users."
+msgstr "Această listă conține toți utilizatorii tăi WordPress."
+
+#: lib/Models/Segment.php:272 lib/Segments/SegmentsSimpleListRepository.php:60
+msgid "Not in a List"
+msgstr "Nu este într-o listă"
+
+#: lib/Models/Subscriber.php:54
+msgid "Please enter your email address"
+msgstr "Te rog introdu adresa ta de email"
+
+#: lib/Models/Subscriber.php:55
+msgid "Your email address is invalid!"
+msgstr "Adresa ta de email este invalidă!"
+
+#: lib/Models/Subscriber.php:170
+#: lib/Subscribers/SubscriberListingRepository.php:248
+msgid "Subscribers without a list (%s)"
+msgstr "Abonați fără o listă (%s)"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:164
+#: lib/Subscribers/SubscriberListingRepository.php:203
+msgid "Subscribed"
+msgstr "Abonat"
+
+#: lib/Subscribers/SubscriberListingRepository.php:208
+msgid "Unconfirmed"
+msgstr "Neconfirmat"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:172
+#: lib/Subscribers/SubscriberListingRepository.php:213
+msgid "Unsubscribed"
+msgstr "Dezabonat"
+
+#: lib/Newsletter/Editor/PostContentManager.php:133
+msgid "Click here to view media."
+msgstr "Apasă aici pentru a vedea conținutul."
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:21
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:118
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:119
+msgid "Subscriber"
+msgstr "Abonat"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:23
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:35
+msgid "First Name"
+msgstr "Prenume"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:27
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:39
+msgid "Last Name"
+msgstr "Nume"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:31
+#: lib/Form/Templates/Templates/InitialForm.php:28
+msgid "Email Address"
+msgstr "Adresă de email"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:35
+msgid "WordPress User Display Name"
+msgstr "Nume afișat utilizator WordPress"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:39
+msgid "Total Number of Subscribers"
+msgstr "Număr total de abonați"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:45
+msgid "Newsletter Subject"
+msgstr "Subiect buletin de știri"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:49
+msgid "Post Notifications"
+msgstr "Notificări articol"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:51
+msgid "Total Number of Posts or Pages"
+msgstr "Număr total de articole sau pagini"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:55
+msgid "Most Recent Post Title"
+msgstr "Cel mai recent titlu de articol"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:59
+msgid "Issue Number"
+msgstr "Număr problemă"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:63
+msgid "Date"
+msgstr "Dată"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:65
+msgid "Current day of the month number"
+msgstr "Ziua curentă a lunii"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:69
+msgid "Current day of the month in ordinal form, i.e. 2nd, 3rd, 4th, etc."
+msgstr "Ziua curentă a lunii în formă ordinală, de ex. a doua, a treia, a patra, etc."
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:73
+msgid "Full name of current day"
+msgstr "Numele complet al zilei curente"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:77
+msgid "Current month number"
+msgstr "Numărul curent al lunii"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:81
+msgid "Full name of current month"
+msgstr "Numele complet al lunii curente"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:89
+msgid "Links"
+msgstr "Legături"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:103
+msgid "Manage subscription"
+msgstr "Administrare abonament"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:111
+msgid "View in your browser"
+msgstr "Vezi în navigatorul tău"
+
+#: lib/Router/Router.php:47
+msgid "Invalid router endpoint"
+msgstr "Punct final ruter invalid"
+
+#: lib/Router/Router.php:53
+msgid "Invalid router endpoint action"
+msgstr "Acțiune punct final ruter invalidă"
+
+#: lib/Subscription/Pages.php:212 lib/Settings/Pages.php:18
+#: lib/Settings/Pages.php:19 lib/Settings/Pages.php:43
+msgid "MailPoet Page"
+msgstr "Pagină MailPoet"
+
+#: lib/Settings/SettingsController.php:71
+msgid "Confirm your subscription to %1$s"
+msgstr "Confirmă-ți abonarea la %1$s"
+
+#: lib/Subscribers/ImportExport/ImportExportRepository.php:174
+msgid "Not In Segment"
+msgstr "Nu este în segment"
+
+#: lib/Subscribers/ImportExport/Export/Export.php:91
+msgid "Export requires a ZIP extension to be installed on the host."
+msgstr "Exportul solicită o extensie ZIP pentru a fi instalat pe gazdă."
+
+#: lib/Subscribers/ImportExport/Export/Export.php:119
+msgid "List"
+msgstr "Listă"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:324
+#: lib/Config/PopulatorData/Templates/RealEstate.php:726
+#: lib/Config/PopulatorData/Templates/RealEstate.php:970
+#: lib/Config/PopulatorData/Templates/Phone.php:419
+#: lib/Config/PopulatorData/Templates/Phone.php:633
+#: lib/Config/PopulatorData/Templates/Hotels.php:1035
+#: lib/Config/PopulatorData/Templates/Hotels.php:1268
+#: lib/Config/PopulatorData/Templates/Motor.php:793
+#: lib/Config/PopulatorData/Templates/Motor.php:1055
+#: lib/Config/PopulatorData/Templates/RockBand.php:846
+#: lib/Config/PopulatorData/Templates/RockBand.php:1080
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:607
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:862
+#: lib/Config/PopulatorData/Templates/Engineering.php:825
+#: lib/Config/PopulatorData/Templates/Engineering.php:1114
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:264
+#: lib/Config/PopulatorData/Templates/Music.php:1093
+#: lib/Config/PopulatorData/Templates/Music.php:1339
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:894
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:1126
+#: lib/Config/PopulatorData/Templates/YogaStudio.php:701
+#: lib/Config/PopulatorData/Templates/FestivalEvent.php:467
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/Charity.php:777
+#: lib/Config/PopulatorData/Templates/Charity.php:990
+#: lib/Config/PopulatorData/Templates/Faith.php:356
+#: lib/Config/PopulatorData/Templates/NewsDay.php:565
+#: lib/Config/PopulatorData/Templates/NewsDay.php:952
+#: lib/Config/PopulatorData/Templates/WineCity.php:507
+#: lib/Config/PopulatorData/Templates/WineCity.php:804
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1427
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1721
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1069
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1309
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:804
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:1062
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1035
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1067
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1280
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1106
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1399
+#: lib/Config/PopulatorData/Templates/FoodBox.php:690
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:363
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:629
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:980
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:1194
+#: lib/Config/PopulatorData/Templates/AppWelcome.php:322
+#: lib/Config/PopulatorData/Templates/GiftWelcome.php:301
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:659
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:946
+#: lib/Config/PopulatorData/Templates/Sunglasses.php:663
+#: lib/Config/PopulatorData/Templates/SimpleText.php:148
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1188
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1472
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1006
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1258
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1025
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1293
+#: lib/Config/PopulatorData/Templates/PieceOfCake.php:370
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:290
+#: lib/Config/PopulatorData/Templates/Minimal.php:785
+#: lib/Config/PopulatorData/Templates/Minimal.php:1071
+#: lib/Config/PopulatorData/Templates/TakeAHike.php:650
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2071
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2305
+#: lib/Config/PopulatorData/Templates/Photography.php:1703
+#: lib/Config/PopulatorData/Templates/Photography.php:1949
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1341
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1587
+#: lib/Config/PopulatorData/Templates/Poet.php:870
+#: lib/Config/PopulatorData/Templates/Poet.php:1103
+#: lib/Config/PopulatorData/Templates/Birds.php:1352
+#: lib/Config/PopulatorData/Templates/Birds.php:1586
+#: lib/Config/PopulatorData/Templates/Software.php:910
+#: lib/Config/PopulatorData/Templates/Software.php:1155
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1113
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1346
+#: lib/Config/PopulatorData/Templates/DogFood.php:761
+#: lib/Config/PopulatorData/Templates/DogFood.php:993
+#: lib/Config/PopulatorData/Templates/Avocado.php:646
+#: lib/Config/PopulatorData/Templates/Avocado.php:879
+#: lib/Config/PopulatorData/Templates/Mosque.php:1415
+#: lib/Config/PopulatorData/Templates/Mosque.php:1649
+#: lib/Config/PopulatorData/Templates/Shoes.php:512
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1355
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1643
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:899
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:1133
+#: lib/Config/PopulatorData/Templates/Coffee.php:937
+#: lib/Config/PopulatorData/Templates/Painter.php:1038
+#: lib/Config/PopulatorData/Templates/Painter.php:1251
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:608
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:961
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1690
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1936
+#: lib/Config/PopulatorData/Templates/WorldCup.php:727
+#: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:725
+#: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:1067
+#: lib/Config/PopulatorData/Templates/PrimarySchool.php:962
+#: lib/Config/PopulatorData/Templates/PrimarySchool.php:1196
+#: lib/Config/PopulatorData/Templates/Fitness.php:710
+#: lib/Config/PopulatorData/Templates/Fitness.php:984
+#: lib/Config/PopulatorData/Templates/Retro.php:835
+#: lib/Config/PopulatorData/Templates/Retro.php:1188
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1044
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1326
+#: lib/Config/PopulatorData/Templates/College.php:715
+#: lib/Config/PopulatorData/Templates/College.php:979
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:454
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:692
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:294
+#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:595
+#: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1124
+#: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1357
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:287
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:775
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:1042
+#: lib/Config/PopulatorData/Templates/Drone.php:815
+#: lib/Config/PopulatorData/Templates/Drone.php:1047
+#: lib/Config/PopulatorData/Templates/JazzClub.php:856
+#: lib/Config/PopulatorData/Templates/JazzClub.php:1096
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1048
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1281
+#: lib/Config/PopulatorData/Templates/FashionShop.php:642
+#: lib/Config/PopulatorData/Templates/FashionShop.php:874
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:95
+msgid "Unsubscribe"
+msgstr "Dezabonare"
+
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:99
+msgid "Edit subscription page link"
+msgstr "Editează legătura paginii de abonare"
+
+#: lib/Subscribers/ImportExport/Import/Import.php:172
+msgid "Unable to save imported subscribers."
+msgstr "Imposibil de salvat abonații importați."
+
+#: lib/Subscribers/ImportExport/Import/MailChimp.php:133
+msgid "Invalid API Key."
+msgstr "Cheie API invalidă."
+
+#: lib/Subscribers/ImportExport/Import/MailChimp.php:136
+msgid "The information received from MailChimp is too large for processing. Please limit the number of lists!"
+msgstr "Informațiile primite de la MailChimp sunt prea mari pentru procesare. Te rog limitează numărul listelor!"
+
+#: lib/Subscribers/ImportExport/Import/MailChimp.php:139
+msgid "Did not find any active subscribers."
+msgstr "Nu există niciun abonat activ."
+
+#: lib/Subscribers/ImportExport/Import/MailChimp.php:142
+msgid "Did not find any valid lists."
+msgstr "Nu există nicio listă validă."
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:105
+msgid "Ignore field..."
+msgstr "Ignoră câmpul..."
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:109
+msgid "Create new field..."
+msgstr "Creează câmp nou..."
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:115
+msgid "Select all..."
+msgstr "Selectează tot..."
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:119
+msgid "Deselect all..."
+msgstr "Deselectează tot..."
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:124
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:128
+msgid "System fields"
+msgstr "Câmpuri sistem"
+
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:134
+msgid "User fields"
+msgstr "Câmpuri utilizator"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:160
+#: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:47
+msgid "Status"
+msgstr "Stare"
+
+#: lib/Subscription/Comment.php:43 lib/Subscription/Registration.php:31
+msgid "Yes, please add me to your mailing list."
+msgstr "Da, te rog adaugă-mă în lista ta de corespondență."
+
+#: lib/Subscription/Pages.php:219
+msgid "Hmmm... we don't have a record of you."
+msgstr "Hmmm... nu avem o înregistrare despre tine."
+
+#: lib/Subscription/Pages.php:244
+msgid "Your email address doesn't appear in our lists anymore. Sign up again or contact us if this appears to be a mistake."
+msgstr "Adresa ta de email nu mai apare în listele noastre. Înregistrează-te din nou sau contactează-ne dacă acest lucru pare o greșeală."
+
+#: lib/Subscription/Pages.php:301 lib/Subscription/Pages.php:313
+msgid "You have subscribed to: %s"
+msgstr "Te-ai abonat la: %s"
+
+#: lib/Subscription/Pages.php:310
+msgid "You are now subscribed!"
+msgstr "Acum ești abonat!"
+
+#: lib/Subscription/Pages.php:341
+msgid "Yup, we've added you to our email list. You'll hear from us shortly."
+msgstr "Dap, te-am adăugat în lista noastră de emailuri. Vei auzi vești de la noi în curând."
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:238
+msgid "Your lists"
+msgstr "Listele tale"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:77
+msgid "Save"
+msgstr "Salvează"
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:99
+msgid "[link]Edit your profile[/link] to update your email."
+msgstr "[link]Editează-ți profilul[/link] pentru a-ți actualiza emailul."
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:105
+msgid "[link]Log in to your account[/link] to update your email."
+msgstr "[link]Autentifică-te în contul tău[/link] pentru a-ți actualiza emailul."
+
+#: lib/Subscription/ManageSubscriptionFormRenderer.php:90
+msgid "Need to change your email address? Unsubscribe here, then simply sign up again."
+msgstr "Ai nevoie să-ți schimbi adresa de email? Dezabonează-te aici, apoi pur și simplu înregistrează-te din nou."
+
+#: lib/Subscription/Pages.php:375
+msgid "Accidentally unsubscribed?"
+msgstr "Te-ai dezabonat din greșeală?"
+
+#: lib/Subscription/Pages.php:323 lib/Subscription/Pages.php:405
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:324
+#: lib/Config/PopulatorData/Templates/RealEstate.php:726
+#: lib/Config/PopulatorData/Templates/RealEstate.php:970
+#: lib/Config/PopulatorData/Templates/Phone.php:420
+#: lib/Config/PopulatorData/Templates/Phone.php:633
+#: lib/Config/PopulatorData/Templates/Hotels.php:1035
+#: lib/Config/PopulatorData/Templates/Hotels.php:1268
+#: lib/Config/PopulatorData/Templates/Motor.php:793
+#: lib/Config/PopulatorData/Templates/Motor.php:1055
+#: lib/Config/PopulatorData/Templates/RockBand.php:846
+#: lib/Config/PopulatorData/Templates/RockBand.php:1080
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:607
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:862
+#: lib/Config/PopulatorData/Templates/Engineering.php:826
+#: lib/Config/PopulatorData/Templates/Engineering.php:1114
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:264
+#: lib/Config/PopulatorData/Templates/Music.php:1094
+#: lib/Config/PopulatorData/Templates/Music.php:1339
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:894
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:1126
+#: lib/Config/PopulatorData/Templates/YogaStudio.php:701
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/Charity.php:777
+#: lib/Config/PopulatorData/Templates/Charity.php:990
+#: lib/Config/PopulatorData/Templates/Faith.php:356
+#: lib/Config/PopulatorData/Templates/NewsDay.php:565
+#: lib/Config/PopulatorData/Templates/NewsDay.php:952
+#: lib/Config/PopulatorData/Templates/WineCity.php:507
+#: lib/Config/PopulatorData/Templates/WineCity.php:804
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1428
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1721
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1069
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1309
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:804
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:1062
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1035
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1067
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1280
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1106
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1399
+#: lib/Config/PopulatorData/Templates/FoodBox.php:690
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:363
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:629
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:980
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:1194
+#: lib/Config/PopulatorData/Templates/AppWelcome.php:322
+#: lib/Config/PopulatorData/Templates/GiftWelcome.php:301
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:659
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:946
+#: lib/Config/PopulatorData/Templates/Sunglasses.php:663
+#: lib/Config/PopulatorData/Templates/SimpleText.php:148
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1188
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1472
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1006
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1258
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1025
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1293
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:290
+#: lib/Config/PopulatorData/Templates/Minimal.php:786
+#: lib/Config/PopulatorData/Templates/Minimal.php:1071
+#: lib/Config/PopulatorData/Templates/TakeAHike.php:650
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2071
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2305
+#: lib/Config/PopulatorData/Templates/Photography.php:1703
+#: lib/Config/PopulatorData/Templates/Photography.php:1949
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1341
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1587
+#: lib/Config/PopulatorData/Templates/Poet.php:870
+#: lib/Config/PopulatorData/Templates/Poet.php:1103
+#: lib/Config/PopulatorData/Templates/Birds.php:1352
+#: lib/Config/PopulatorData/Templates/Birds.php:1586
+#: lib/Config/PopulatorData/Templates/Software.php:910
+#: lib/Config/PopulatorData/Templates/Software.php:1155
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1113
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1346
+#: lib/Config/PopulatorData/Templates/DogFood.php:761
+#: lib/Config/PopulatorData/Templates/DogFood.php:993
+#: lib/Config/PopulatorData/Templates/Avocado.php:646
+#: lib/Config/PopulatorData/Templates/Avocado.php:879
+#: lib/Config/PopulatorData/Templates/Mosque.php:1415
+#: lib/Config/PopulatorData/Templates/Mosque.php:1649
+#: lib/Config/PopulatorData/Templates/Shoes.php:512
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1355
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1643
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:899
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:1133
+#: lib/Config/PopulatorData/Templates/Coffee.php:937
+#: lib/Config/PopulatorData/Templates/Painter.php:1038
+#: lib/Config/PopulatorData/Templates/Painter.php:1251
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:608
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:961
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1690
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1936
+#: lib/Config/PopulatorData/Templates/WorldCup.php:727
+#: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:725
+#: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:1067
+#: lib/Config/PopulatorData/Templates/PrimarySchool.php:962
+#: lib/Config/PopulatorData/Templates/PrimarySchool.php:1196
+#: lib/Config/PopulatorData/Templates/Fitness.php:710
+#: lib/Config/PopulatorData/Templates/Fitness.php:984
+#: lib/Config/PopulatorData/Templates/Retro.php:835
+#: lib/Config/PopulatorData/Templates/Retro.php:1188
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1044
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1326
+#: lib/Config/PopulatorData/Templates/College.php:715
+#: lib/Config/PopulatorData/Templates/College.php:979
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:454
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:692
+#: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:294
+#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:595
+#: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1124
+#: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1357
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:287
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:775
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:1042
+#: lib/Config/PopulatorData/Templates/Drone.php:815
+#: lib/Config/PopulatorData/Templates/Drone.php:1047
+#: lib/Config/PopulatorData/Templates/JazzClub.php:856
+#: lib/Config/PopulatorData/Templates/JazzClub.php:1096
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1048
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1281
+#: lib/Config/PopulatorData/Templates/FashionShop.php:642
+#: lib/Config/PopulatorData/Templates/FashionShop.php:874
+msgid "Manage your subscription"
+msgstr "Administrează-ți abonamentul"
+
+#: lib/Subscription/Pages.php:329
+msgid "You are now unsubscribed."
+msgstr "Acum ești dezabonat."
+
+#: lib/Twig/Functions.php:179
+msgid "every minute"
+msgstr "în fiecare minut"
+
+#: lib/Twig/Functions.php:180
+msgid "every %1$d minutes"
+msgstr "la fiecare %1$d minute"
+
+#: lib/Twig/Functions.php:181
+msgid "every hour"
+msgstr "în fiecare oră"
+
+#: lib/Twig/Functions.php:182
+msgid "every %1$d hours"
+msgstr "la fiecare %1$d ore"
+
+#: lib/WP/Notice.php:39
+msgid "MailPoet Error:"
+msgstr "Eroare MailPoet:"
+
+#: lib/Config/Menu.php:125
+msgctxt "newsletters per page (screen options)"
+msgid "Number of newsletters per page"
+msgstr "Număr de buletine de știri pe pagină"
+
+#: lib/Config/Menu.php:163
+msgctxt "forms per page (screen options)"
+msgid "Number of forms per page"
+msgstr "Număr de formulare pe pagină"
+
+#: lib/Config/Menu.php:229
+msgctxt "subscribers per page (screen options)"
+msgid "Number of subscribers per page"
+msgstr "Număr de abonați pe pagină"
+
+#: lib/Config/Menu.php:280
+msgctxt "segments per page (screen options)"
+msgid "Number of segments per page"
+msgstr "Număr de segmente pe pagină"
+
+#: lib/Config/Menu.php:175 lib/Config/Menu.php:176
+msgid "Form Editor"
+msgstr "Editor de formulare"
